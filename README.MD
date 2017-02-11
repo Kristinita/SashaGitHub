@@ -51,12 +51,10 @@ There is one type of test:
 If you do not follow these rules, you will have unexpected errors in test output.
 
 1. [Convert tabs to spaces](https://css-tricks.com/changing-spaces-tabs-sublime-text/) in your `color_scheme_test` files. sublime_color_scheme_unit don't work with tabs indentation.
-2. Necessarily use type `fs`, even if you scopes not bold or/and italic.
-
+2. Necessarily use type `fs`, even if you scopes not bold or/and italic.  
 + ![Incorrect icon](https://cdn1.iconfinder.com/data/icons/ui-navigation-1/152/close-32.png) — `^ fg=yellow`
-+ ![Done](https://cdn4.iconfinder.com/data/icons/icocentre-free-icons/137/f-check_256-32.png) — `^ fg=yellow fs=`
-
-3. Do not reverse types. Correct sequence: `fg`, `fs`, `bg`.
++ ![Done](https://cdn4.iconfinder.com/data/icons/icocentre-free-icons/137/f-check_256-32.png) — `^ fg=yellow fs=`  
+3. Do not reverse types. Correct sequence: `fg`, `fs`, `bg`.  
 + ![Incorrect icon](https://cdn1.iconfinder.com/data/icons/ui-navigation-1/152/close-32.png) — `^^^^^ fg=#FA8537 bg=#7A4A2299 fs=bold`
 + ![Done](https://cdn4.iconfinder.com/data/icons/icocentre-free-icons/137/f-check_256-32.png) — `^^^^^ fg=#FA8537 fs=bold bg=#7A4A2299`
 
