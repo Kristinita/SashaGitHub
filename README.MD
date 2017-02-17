@@ -1,203 +1,151 @@
-# WHAT COLOR_SCHEME_UNIT IS
+# write good [![Build Status](https://travis-ci.org/btford/write-good.svg?branch=master)](https://travis-ci.org/btford/write-good)
 
-[![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat-square&maxAge=86400)](https://twitter.com/gerardroche) [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat-square&maxAge=86400)](https://github.com/gerardroche/sublime_color_scheme_unit) [![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat-square&maxAge=86400)](https://raw.githubusercontent.com/gerardroche/sublime_color_scheme_unit/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime_color_scheme_unit.svg?style=flat-square&maxAge=86400)](https://github.com/gerardroche/sublime_color_scheme_unit/stargazers) [![Sublime version](https://img.shields.io/badge/sublime-v3.0.0-green.svg?style=flat-square&maxAge=86400)](https://sublimetext.com) [![Latest version](https://img.shields.io/github/tag/gerardroche/sublime_color_scheme_unit.svg?style=flat-square&maxAge=86400&label=release)](https://github.com/gerardroche/sublime_color_scheme_unit/tags) [![Downloads](https://img.shields.io/packagecontrol/dt/color_scheme_unit.svg?style=flat-square&maxAge=86400)](https://packagecontrol.io/packages/color_scheme_unit)
+Naive linter for English prose for developers who can't write good and wanna learn to do other stuff good too.
 
-COLOR_SCHEME_UNIT is a testing framework for Sublime Text color schemes.
 
-![Screenshot](screenshot.png)
+## Use
 
-## OVERVIEW
-
-* [Writing Tests](#writing-tests)
-* [Commands](#commands)
-* [Key Bindings](#key-bindings)
-* [Configuration](#configuration)
-* [Installation](#installation)
-* [Contributing](#contributing)
-* [Changelog](#changelog)
-* [License](#license)
-
-## WRITING TESTS
-
-Color scheme tests are very similar to [syntax definition tests](https://www.sublimetext.com/docs/3/syntax.html).
-
-1. Ensure the file name starts with `color_scheme_test_`.
-2. Ensure the file is saved somewhere within the Packages directory.
-3. Ensure the first line of the file starts with:
-   `<comment_token> COLOR TEST "<color_scheme_file>" "<syntax_name>"`
-
-Suggested package layout:
-
-    .
-    ├── name.tmTheme
-    └── test
-      ├── color_scheme_test.css
-      ├── color_scheme_test.html
-      ├── color_scheme_test.js
-      └── issue
-          ├── color_scheme_test_104.php
-          └── color_scheme_test_98.php
-
-Once the above conditions are met, running a test or running all the tests with a color scheme test in an active view will run a single test or all the package tests for that test, and then show the results in an output panel. Next Result (<kbd>F4</kbd>) can be used to navigate to the first failing test, and Previous Result (<kbd>Shift</kbd>+<kbd>F4</kbd>) can be used to navigate to the previous failing test.
-
-Each test in the syntax test file must first start the comment token (established on the first line, it doesn't have to be a comment according to the syntax), and then a `^` token.
-
-There is one type of test:
-
-* Caret: `^` this will test the following selector against the scope on the most recent non-test line. It will test it at the same column the `^` is in. Consecutive `^`'s will test each column against the selector. Assertions are specified after the caret. There are three types of assertions: foreground (`fg=#<color>`), background (`bg=#<color>`), and font style (`fs=<comma_delimited_list>`). One or more assertions are required, and must be specified in the order listed above.
-
-### Rules
-
-If you do not follow these rules, you will have unexpected errors in test output.
-
-1. [Convert tabs to spaces](https://css-tricks.com/changing-spaces-tabs-sublime-text/) in your `color_scheme_test` files. sublime_color_scheme_unit don't work with tabs indentation.
-2. Necessarily use type `fs`, even if you scopes not bold or/and italic.  
-    + ![Incorrect icon](https://cdn1.iconfinder.com/data/icons/ui-navigation-1/152/close-32.png) — `^ fg=yellow`
-    + ![Done](https://cdn4.iconfinder.com/data/icons/icocentre-free-icons/137/f-check_256-32.png) — `^ fg=yellow fs=`  
-3. Do not reverse types. Correct sequence: `fg`, `fs`, `bg`.  
-    + ![Incorrect icon](https://cdn1.iconfinder.com/data/icons/ui-navigation-1/152/close-32.png) — `^^^^^ fg=#FA8537 bg=#7A4A2299 fs=bold`
-    + ![Done](https://cdn4.iconfinder.com/data/icons/icocentre-free-icons/137/f-check_256-32.png) — `^^^^^ fg=#FA8537 fs=bold bg=#7A4A2299`
-
-### Examples
-
-For more examples see the [Five Easy Color Schemes](https://github.com/gerardroche/sublime_five_easy_color_schemes) package tests.
-
-#### Example &mdash; PHP Test
-
-```
-<?php // COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "PHP"
-
-    // comment
-//  ^^^^^^^^^^ fg=#75715e bg=#272822 fs=italic
-
-interface Filter {
-// ^ fg=#66d9ef fs=italic
-//        ^ fg=#a6e22e fs=
-
-    public function filter();
-//  ^ fg=#f92672 fs=
-//         ^ fg=#66d9ef fs=italic
-//                  ^ fg=#a6e22e fs=
-}
+```shell
+npm install write-good
 ```
 
-#### Example &mdash; HTML Test
+**Important:** Do not use this tool to be a jerk to other people about their writing.
 
-```
-<!-- COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "HTML" -->
-<!-- assertions... -->
-```
 
-#### Example &mdash; CSS Test
+## API
 
-```
-/* COLOR TEST "Packages/five_easy_color_schemes/Monokai (Dark).tmTheme" "CSS" */
-/* assertions... */
-```
+`writeGood` is a function that takes a string and returns an array of suggestions.
 
-## INSTALLATION
+```javascript
+var writeGood = require('write-good');
 
-### Package Control
+var suggestions = writeGood('So the cat was stolen.');
 
-The preferred method of installation is via [Package Control](https://packagecontrol.io/browse/authors/gerardroche).
-
-### Manual
-
-1. Close Sublime Text.
-2. Download or clone this repository to a directory named `color_scheme_unit` in the Sublime Text packages directory:
-    * Linux: `git clone https://github.com/gerardroche/sublime_color_scheme_unit.git ~/.config/sublime-text-3/Packages/color_scheme_unit`
-    * OS X: `git clone https://github.com/gerardroche/sublime_color_scheme_unit.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/color_scheme_unit`
-    * Windows: `git clone https://github.com/gerardroche/sublime_color_scheme_unit.git %APPDATA%\Sublime/ Text/ 3/Packages/color_scheme_unit`
-3. Done!
-
-## COMMANDS
-
-* ColorSchemeUnit: Run Test
-* ColorSchemeUnit: Run Tests
-
-## KEY BINDINGS
-
-Disabled by default.
-
-OS X | Windows / Linux | Description
------|-----------------|------------
-<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>r</kbd> | Run Test
-<kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>t</kbd> | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>t</kbd> | Run Tests
-
-## CONFIGURATION
-
-Key | Description | Type | Default
-----|-------------|------|--------
-`color_scheme_unit.keymaps` | Enable the default keymaps. | `boolean` | `false`
-
-### User Settings
-
-`Preferences > Settings - User`
-
-```json
-{
-    "color_scheme_unit.{Key}": "{Value}"
-}
+// suggestions:
+//
+// [{
+//   suggestion: "omit 'So' from the beginning of sentences",
+//   index: 0, offset: 2
+// }, {
+//   suggestion: "'was stolen' is passive voice",
+//   index: 11, offset: 10
+// }]
 ```
 
-### Per-Project Settings
+`writeGood` takes an optional second argument that allows you to disable certain checks.
 
-`Project > Edit Project`
+You can disable checking for passive voice like this:
 
-```json
-{
-    "settings": {
-        "color_scheme_unit.{Key}": "{Value}"
-    }
-}
+```javascript
+var writeGood = require('write-good');
+
+var suggestions = writeGood('So the cat was stolen', { passive: false});
+// suggestions: []
 ```
 
-## CONTRIBUTING
 
-Your issue reports and pull requests are always welcome.
+## CLI
 
-### Debug messages
+You can use `write-good` as a command-line tool by installing it globally:
 
-Debug messages are disabled by default. To enable them set an environment variable to a non-blank value e.g. `SUBLIME_COLOR_SCHEME_UNIT_DEBUG=y`. To disable them set unset it or set it to a blank value e.g. `SUBLIME_COLOR_SCHEME_UNIT_DEBUG=`.
-
-For more information on environment variables read [What are PATH and other environment variables, and how can I set or use them?](http://superuser.com/questions/284342/what-are-path-and-other-environment-variables-and-how-can-i-set-or-use-them)
-
-#### Example &mdash; Linux
-
-Sublime Text can be started at the Terminal with an exported environment variable.
-
-```
-$ export SUBLIME_COLOR_SCHEME_UNIT_DEBUG=y; subl
+```shell
+npm install -g write-good
 ```
 
-To set the environment permanently set it in `~/.profile` (requires restart).
+`write-good` takes a [glob](https://github.com/isaacs/node-glob) and prints suggestions to stdout:
 
+```shell
+$ write-good *.md
+
+In README.md
+=============
+ = writeGood('So the cat was stolen.');
+                         ^^^^^^^^^^
+"was stolen" is passive voice on line 20 at column 40
+-------------
+//   suggestion: "'was stolen' is passive voice",
+                   ^^^^^^^^^^
+"was stolen" is passive voice on line 28 at column 19
 ```
-export SUBLIME_COLOR_SCHEME_UNIT_DEBUG=y
+
+You can run just specific checks like this:
+
+```shell
+write-good *.md --weasel --so
 ```
 
-Alternatively, create a [debug script (subld)](https://github.com/gerardroche/dotfiles/blob/1a27abed589f2fea9126a0496ef4d1cae0479722/src/bin/subld) with debugging environment variables enabled.
+Or exclude checks like this:
 
-#### Example &mdash; Windows
-
-Sublime Text can be started at the Command Prompt with an exported environment variable.
-
-```
-> set SUBLIME_COLOR_SCHEME_UNIT_DEBUG=y& "C:\Program Files\Sublime Text 3\subl.exe"
+```shell
+write-good *.md --no-passive
 ```
 
-To set the environment permanently set it as a *system* environment variable (requires restart).
 
-1. Control Panel > System and Security > System > Advanced system settings
-2. Advanced > Environment Variables
-3. System variables > New...
-4. Add Variable name `SUBLIME_COLOR_SCHEME_UNIT_DEBUG` with Variable value `y`
-5. Restart Windows
+## Checks
 
-## CHANGELOG
+You can disable any combination of the following by providing a key with value `false` as the second argument to `writeGood`.
 
-See [CHANGELOG.md](CHANGELOG.md).
+### `passive`
+Checks for passive voice.  
+See [«Is using passive voice “bad form”?»](http://english.stackexchange.com/q/32311/195212)
 
-## LICENSE
+### `illusion`
+Checks for lexical illusions – cases where a word is repeated.  
+See [«Communication Design: What are some interesting lexical illusions?»](https://www.quora.com/unanswered/Communication-Design-What-are-some-interesting-lexical-illusions)
 
-Released under the [BSD 3-Clause License](LICENSE).
+### `so`
+Checks for `so` at the beginning of the sentence.  
+See [«Sentences beginning with “so”?»](http://english.stackexchange.com/q/43273/195212)
+
+### `thereIs`
+Checks for `there is` or `there are` at the beginning of the sentence.  
+See [«Why should sentences not start with “there is” or “there are”?»](http://english.stackexchange.com/q/157830/195212)
+
+### `weasel`
+Checks for "weasel words."  
+See [«“Weasel word” — English Wikipedia article»](https://en.wikipedia.org/wiki/Weasel_word)
+
+### `adverb`
+Checks for adverbs that can weaken meaning: really, very, extremely, etc.  
+See [«Pretty, fairly, really, very, and quit»](http://www.learnersdictionary.com/qa/pretty-fairly-really-very-and-quite).
+
+### `tooWordy`
+Checks for wordy phrases and unnecessary words.  
+See [«Wordy phrases»](http://grammarist.com/wordiness/)
+
+### `cliches`
+Checks for common cliches.  
+See [«681 Cliches to Avoid in Your Creative Writing»](http://www.be-a-better-writer.com/cliches.html)
+
+## See also
+
+I came across these resources while doing research to make this module.
+They might be helpful.
+
+### Code
+
+* [shell script for avoiding "weasel words"](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/) – I based my initial implementation on this
+* [Academic Writing Check](https://github.com/devd/Academic-Writing-Check) – a perl script similar to above
+* [writegood mode](https://github.com/bnbeckwith/writegood-mode) for emacs
+* [natural](https://github.com/NaturalNode/natural) – general purpose NLP toolkit in JavaScript
+* [WordNet](http://wordnet.princeton.edu/) – lexical database of the English language
+* [LanguageTool](https://languagetool.org/) – style and grammar checker implemented in Java
+* [linter-write-good](https://github.com/gepoch/linter-write-good) for [Atom](https://atom.io/)
+
+### Prose
+
+* [Elements of Style](http://www.bartleby.com/141/)
+* [Flesch–Kincaid readability](http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_test)
+* [Fear and Loathing of the English passive](http://www.lel.ed.ac.uk/~gpullum/passive_loathing.pdf)
+* [Words to Avoid in Educational Writing](http://css-tricks.com/words-avoid-educational-writing/)
+
+### Apps
+
+This is not an endorsement.
+These apps have similar functionality that you may find useful.
+
+* [Hemingway App](http://www.hemingwayapp.com/)
+* [Nitpicker](http://nitpickertool.com)
+
+## License
+MIT
