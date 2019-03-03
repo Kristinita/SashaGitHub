@@ -29,6 +29,5 @@ That to see documentation of each command, print in command palette `GraceSplitt
 + @odat-nurd,
 + @mattst.
 
-
 Pull requests welcome!
 
