@@ -25,7 +25,7 @@ That to see documentation of each command, print in command palette `GraceSplitt
 ### 5. Thanks
 
 + @keith-hall,
-+ @math2001,
++ @math2001
 + @odat-nurd
 + @mattst.
 
