@@ -30,4 +30,3 @@ That to see documentation of each command, print in command palette `GraceSplitt
 + @mattst.
 
 Pull requests welcome!
-
