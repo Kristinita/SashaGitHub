@@ -26,7 +26,7 @@ That to see documentation of each command, print in command palette `GraceSplitt
 
 + @keith-hall,
 + @math2001,
-+ @odat-nurd,
++ @odat-nurd
 + @mattst.
 
 Pull requests welcome!
