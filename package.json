@@ -1,0 +1,7 @@
+{
+	"name": "sashagithub",
+	"version": "1.0.0",
+	"devDependencies": {
+		"git-upload": "^1.1.4"
+	}
+}
