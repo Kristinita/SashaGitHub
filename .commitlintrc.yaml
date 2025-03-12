@@ -100,13 +100,13 @@
 #
 # [NOTE] This command works for me for AppVeyor and Travis.
 # Special settings and/or plugins for each CI, as described in the documentation, aren’t required:
-# https://commitlint.js.org/#/guides-ci-setup
+# https://commitlint.js.org/guides/ci-setup.html
 #
 # [INFO] This method works for local and CI usage, but not for git hooks
 #
 #
 # [INFO] 3. Git hooks:
-# https://commitlint.js.org/#/guides-local-setup?id=add-hook
+# https://commitlint.js.org/guides/local-setup.html#add-hook
 #
 # ```
 # module.exports = {
