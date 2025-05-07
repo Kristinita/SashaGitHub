@@ -261,10 +261,10 @@ rules:
   # [NOTE] “--signoff” prints to console your real e-mail address.
   # Use commit emails for saving your real emails private.
   # Read the file “amazing_grace_your_variables.yaml” for getting information about commit emails.
-  # trailer-exists:
-  # - 2
-  # - always
-  # - "Signed-off-by:"
+  trailer-exists:
+  - 2
+  - always
+  - "Signed-off-by:"
 
   # [NOTE] I added personal types for my projects.
   # I think this will help provide more accurate information about the type of changes made.
