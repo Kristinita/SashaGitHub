@@ -1,6 +1,6 @@
 git:
-  commitMessage: "deploy(release-it): release v${version} --signoff\n\n\
-                  Signed-off-by: Kristinita <Kristinita@users.noreply.github.com>"
+  commitArgs: --signoff
+  commitMessage: "deploy(release-it): release v${version}"
   pushArgs: --tags
   requireUpstream: false
 
