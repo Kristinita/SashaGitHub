@@ -1,6 +1,7 @@
 git:
   commitMessage: "deploy(release-it): release v${version} --signoff\n\n\
                   Signed-off-by: Kristinita <Kristinita@users.noreply.github.com>"
+  pushArgs: --tags
   requireUpstream: false
 
 npm:
