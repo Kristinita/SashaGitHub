@@ -84,31 +84,40 @@
 # [INFO] 2. CI usage:
 # https://bit.ly/commitlint-for-every-ci
 #
-# ```
-# git log -1 --pretty=format:\"%s%n%n%b\" | npx commitlint --verbose
+# ```shell
+# git log -1 --pretty=%B | npx commitlint --verbose
 # ```
 #
 # [INFO] “--pretty-format” — format commit messages from log for using them in Commitlint:
 # https://git-scm.com/docs/pretty-formats
 #
 # [INFO]
+# “%B” — header + body + footer:
+# https://git-scm.com/docs/pretty-formats#Documentation/pretty-formats.txt-emBem
+#
 # “%s” — “subject”, full first line of the commit
 # “%n” — new line
 # “%b” — “body”, body + footer
 #
-# [INFO] “%s%n%n%b” — correct formatting, that Commitlint successfully works
+# [INFO] “%B” — correct formatting, that Commitlint successfully works
 #
-# [NOTE] This command works for me for AppVeyor and Travis.
+# [FIXME][ISSUE] This command works for me for AppVeyor and Travis.
 # Special settings and/or plugins for each CI, as described in the documentation, aren’t required:
 # https://commitlint.js.org/guides/ci-setup.html
+#
+# [NOTE][BUG] AppVeyor incorrectly processes commands with percent symbol.
+# “git log -1 --pretty=%B” in appveyor.yml doesn’t work correctly,
+# but “grunt shell:commitlint” runs without bugs:
+# https://github.com/appveyor/ci/issues/246#issuecomment-2717301993
+# https://github.com/git-for-windows/git/issues/4244#issuecomment-2717322716
 #
 # [INFO] This method works for local and CI usage, but not for git hooks
 #
 #
 # [INFO] 3. Git hooks:
-# https://commitlint.js.org/guides/local-setup.html#add-hook
+# https://commitlint.js.org/#/guides-local-setup?id=add-hook
 #
-# ```
+# ```js
 # module.exports = {
 #   "commit-msg": "npx commitlint --edit \"$1\" --verbose"
 # };
@@ -142,6 +151,21 @@
 # [NOTE] Probot Commitlint doesn’t work with commitlint configuration files:
 # https://github.com/ahmed-taj/commitlint-bot/pull/8
 # https://probot.github.io/apps/commitlint/
+#
+# -------
+#
+# [INFO] If the previous commit isn’t valid:
+# 1. “git commit --amend --message="your valid commit" --signoff”
+# 2. “git push --force-with-lease”
+# https://stackoverflow.com/a/8981216/5951529
+#
+# [GIT][LEARN] “--amend” — modify the last commit:
+# https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---amend
+# https://docs.github.com/ru/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message#commit-has-not-been-pushed-online
+#
+# [GIT][LEARN] “--force-with-lease” — safe force push;
+# If someone else pushed changes to the same branch, this argument prevents pushing:
+# https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-force-with-lease
 
 
 ##################################
@@ -164,20 +188,30 @@ extends:
 # [INFO] I prefer errors rather than warnings so that CI build exits at every warning
 rules:
 
-  # [NOTE] “body” is the long commit description, which may contain long URL’s.
+  # [OPTION] “body” is the long commit description, which may contain long URL’s.
   # I think it makes sense to set it to a high value.
   body-max-length:
   - 2
   - always
   - 250
 
-  # [NOTE] 120 as in Python
+  # [OPTION] 120 as Python line length
+  #
+  # [NOTE][BUG] Commitlint recognizes body with URLs as footer:
+  # https://github.com/conventional-changelog/commitlint/issues/4101
+  # So, I increased footer-max-length from 120 to 250
   footer-max-length:
   - 2
   - always
   - 250
 
-  # [NOTE] 120 as in Python
+  # [NOTE][BUG] See the description of the “footer-max-length” option
+  footer-max-line-length:
+  - 2
+  - always
+  - 250
+
+  # [OPTION] 120 as Python line length
   header-max-length:
   - 2
   - always
@@ -208,70 +242,40 @@ rules:
   - always
 
   # [INFO] Check if specific trailer exists:
-  # https://commitlint.js.org/#/reference-rules?id=trailer-exists
+  # https://commitlint.js.org/reference/rules.html#trailer-exists
   # https://git-scm.com/docs/git-interpret-trailers
   #
   # [INFO] Sign-off commits:
   # https://stackoverflow.com/a/14044024/5951529
   #
-  # I use sign-off commits for reals projects and I don’t use it for demo and debugging repositories
+  # I use sign-off commits for real projects and don’t use them for demo and debugging repositories
   #
   # [INFO] “Sign-off is a requirement for getting patches into the Linux kernel and a few other projects,
-  # but most projects don't actually use it.”:
+  # but most projects don’t actually use it.”:
   # https://stackoverflow.com/a/1962112/5951529
   #
   # [INFO] For sign off commit add “--signoff” or “-s” command to “git commit” command:
   # https://stackoverflow.com/a/45974435/5951529
   #
   #
-  # -------
-  #
-  # [NOTE] “--signoff” prints to console real e-mail address.
-  # To hide it for GitHub:
-  #
-  # 1. https://github.com/settings/emails → “Keep my email addresses private” on GitHub —
-  # https://stackoverflow.com/a/71542189/5951529
-  #
-  # 2. https://github.com/settings/emails → Primary email → “Not visible in emails” →
-  # get generated private email — https://stackoverflow.com/posts/comments/121169456
-  #
-  # 3. Set GitHub private e-mail for both, global and local settings —
-  # https://stackoverflow.com/a/51097104/5951529
-  #
-  # git config --global user.email "{username}@users.noreply.github.com"
-  # git config user.email "{username}@users.noreply.github.com"
-  #
-  # [NOTE] Don’t use the syntax "{ID}+{username}@users.noreply.github.com".
-  # Commits in this case are displayed as “Unverified”.
-  # E-mail with {ID} is “Unverified” in GPG keys settings:
-  # https://github.com/orgs/community/discussions/41199
-  # https://i.imgur.com/6svALVn.png
-  #
-  # 4. Check the git configuration, use “git config --list --show-origin --show-scope”:
-  # https://stackoverflow.com/a/2115116/5951529
-  #
-  # 5. Create a new GPG key for GitHub private no-reply e-mail without number ID:
-  # https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
-  # https://github.com/orgs/community/discussions/41199#discussioncomment-8133113
-  #
-  # 6. Add this new GPG key to GitHub account:
-  # https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account
-  trailer-exists:
-  - 2
-  - always
-  - "Signed-off-by:"
+  # [NOTE] “--signoff” prints to console your real e-mail address.
+  # Use commit emails for saving your real emails private.
+  # Read the file “amazing_grace_your_variables.yaml” for getting information about commit emails.
+  # trailer-exists:
+  # - 2
+  # - always
+  # - "Signed-off-by:"
 
   # [NOTE] I added personal types for my projects.
   # I think this will help provide more accurate information about the type of changes made.
   type-enum:
   - 2
   - always
-  -
 
-    # [INFO] Default types
-
-    # [INFO] Building tools changes (example scopes: grunt, gulp)
-    - build
+  # [INFO] Default types
+  #
+  # [INFO] Building tools changes (example scopes: grunt, gulp)
+  - - build
 
     # [INFO] Tool changes, configuration changes,
     # and changes to things that do not actually go into production at all:
@@ -309,11 +313,17 @@ rules:
 
     # [INFO] Personal types
 
-    # [INFO] Debugging.
+    # [INFO] Debugging
     - debug
 
     # [INFO] Delete unneeded
     - del
+
+    # [INFO] Deployment
+    - deploy
+
+    # [INFO] Initialize the project
+    - init
 
     # [INFO] Changes for linters/checkers/validators.
     # Example scopes — “eslint”, “stylint”
@@ -321,6 +331,9 @@ rules:
 
     # [INFO] Migrate from one tool to another
     - migrate
+
+    # [INFO] Security changes
+    - sec
 
     # [INFO] Update
     - upd
