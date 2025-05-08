@@ -12,7 +12,7 @@ hooks:
     changelog - --repo-url https://${repo.host}/${repo.repository} |
     tee messages/${version}.txt | cat - CHANGELOG.md > temp
     && mv temp CHANGELOG.md && sed --in-place '/"install": "messages\/install.txt"/i
-    \t"${version}": "messages\/${version}.txt",' messages.json
+    \\\t"${version}": "messages\/${version}.txt",' messages.json
 
 npm:
   publish: false
