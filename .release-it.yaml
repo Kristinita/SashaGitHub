@@ -4,6 +4,9 @@ git:
   pushArgs: --tags
   requireUpstream: false
 
+github:
+  release: true
+
 npm:
   publish: false
 
@@ -12,9 +15,9 @@ plugins:
     infile: CHANGELOG.md
     preset:
       name: angular
-      # types:
-      # - section: Deployments
-      #   type: deploy
+      types:
+      - section: Deployments
+        type: deploy
 
 #   "@release-it/keep-a-changelog":
 #     filename: CHANGELOG.md
