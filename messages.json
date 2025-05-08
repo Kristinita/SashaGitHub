@@ -1,4 +1,6 @@
 {
-nstall.txt"/i 	"1.9.11": "messages/1.9.11.txt",
+t"${version}": "messages/${version}.txt",
+t"${version}": "messages/${version}.txt",
+	"${version}": "messages/${version}.txt",
 	"install": "messages/install.txt"
 }
