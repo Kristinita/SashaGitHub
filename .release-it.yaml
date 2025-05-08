@@ -4,8 +4,8 @@ git:
   pushArgs: --tags
   requireUpstream: false
 
-github:
-  release: true
+# github:
+#   release: true
 
 npm:
   publish: false
