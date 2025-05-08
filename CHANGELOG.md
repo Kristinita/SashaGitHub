@@ -1,5 +1,17 @@
 # Changelog
 
+## <small>1.9.11 (2025-05-08)</small>
+
+* deploy(release-it): try groupBy option ([ca30764](https://github.com/Kristinita/SashaGitHub/commit/ca30764))
+
+#### 1.9.11 (2025-05-08)
+
+##### Other Changes
+
+* **release-it:**  try groupBy option ([ca30764e](https://github.com/Kristinita/SashaGitHub/commit/ca30764e5cac831b55895a01a724cb5136eed93d))
+
+
+
 ## <small>1.9.10 (2025-05-08)</small>
 
 * deploy(release-it): create the folder 'messages' ([3cb1902](https://github.com/Kristinita/SashaGitHub/commit/3cb1902))
