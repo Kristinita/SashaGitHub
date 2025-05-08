@@ -1,3 +1,9 @@
+#### 1.9.12 (2025-05-08)
+
+##### Other Changes
+
+* **release-it:**  try raw strings in the Sed command ([e890c1d6](https://github.com/Kristinita/SashaGitHub/commit/e890c1d6a4f9827c77c21ef44be776904118bd03))
+
 # Changelog
 
 ## <small>1.9.11 (2025-05-08)</small>

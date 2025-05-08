@@ -1,6 +1,3 @@
 {
-t"${version}": "messages/${version}.txt",
-t"${version}": "messages/${version}.txt",
-	"${version}": "messages/${version}.txt",
 	"install": "messages/install.txt"
 }
