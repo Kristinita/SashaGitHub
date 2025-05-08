@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>1.9.2 (2025-05-08)</small>
+
+* deploy(release-it): try passing github: release as command-line argument ([3cc4fec](https://github.com/Kristinita/SashaGitHub/commit/3cc4fec))
+
 ## <small>1.9.1 (2025-05-08)</small>
 
 * deploy(release-it): try GitHub release ([44dd3b5](https://github.com/Kristinita/SashaGitHub/commit/44dd3b5))
