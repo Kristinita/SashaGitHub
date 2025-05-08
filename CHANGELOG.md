@@ -1,10 +1,25 @@
+# Changelog
+
+## <small>1.9.13 (2025-05-08)</small>
+
+* deploy(release-it): try raw strings in the Sed command ([e890c1d](https://github.com/Kristinita/SashaGitHub/commit/e890c1d))
+* deploy(release-it): try unescaped Sed command ([e9ebe46](https://github.com/Kristinita/SashaGitHub/commit/e9ebe46))
+
+#### 1.9.13 (2025-05-08)
+
+##### Other Changes
+
+* **release-it:**
+  *  try unescaped Sed command ([e9ebe46b](https://github.com/Kristinita/SashaGitHub/commit/e9ebe46b00a0dcab3409b8952fe299abdc7d5f3f))
+  *  try raw strings in the Sed command ([e890c1d6](https://github.com/Kristinita/SashaGitHub/commit/e890c1d6a4f9827c77c21ef44be776904118bd03))
+
 #### 1.9.12 (2025-05-08)
 
 ##### Other Changes
 
 * **release-it:**  try raw strings in the Sed command ([e890c1d6](https://github.com/Kristinita/SashaGitHub/commit/e890c1d6a4f9827c77c21ef44be776904118bd03))
 
-# Changelog
+
 
 ## <small>1.9.11 (2025-05-08)</small>
 
