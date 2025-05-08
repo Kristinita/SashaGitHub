@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>1.9.1 (2025-05-08)</small>
+
+* deploy(release-it): try GitHub release ([44dd3b5](https://github.com/Kristinita/SashaGitHub/commit/44dd3b5))
+
 ## 1.9.0 (2025-05-08)
 
 * feat(release-it): try standard preset type ([3b92c3f](https://github.com/Kristinita/SashaGitHub/commit/3b92c3f))
