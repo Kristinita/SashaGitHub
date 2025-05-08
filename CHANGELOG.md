@@ -1,5 +1,17 @@
 # Changelog
 
+## <small>1.9.14 (2025-05-08)</small>
+
+* deploy(release-it): try escaping slashes ([0453078](https://github.com/Kristinita/SashaGitHub/commit/0453078))
+
+#### 1.9.14 (2025-05-08)
+
+##### Other Changes
+
+* **release-it:**  try escaping slashes ([04530783](https://github.com/Kristinita/SashaGitHub/commit/04530783cc5f8c7a3e5f1b2cb619dbae6fb61ee9))
+
+
+
 ## <small>1.9.13 (2025-05-08)</small>
 
 * deploy(release-it): try raw strings in the Sed command ([e890c1d](https://github.com/Kristinita/SashaGitHub/commit/e890c1d))
