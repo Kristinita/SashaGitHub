@@ -1,3 +1,15 @@
+#### 1.9.8 (2025-05-08)
+
+##### Other Changes
+
+* **release-it:**
+  *  try unescaped JSON in the Sed command ([4cda2d79](https://github.com/Kristinita/SashaGitHub/commit/4cda2d791aec04b94f58b00cb9d6cef98b246866))
+  *  create the folder 'messages' ([3cb1902b](https://github.com/Kristinita/SashaGitHub/commit/3cb1902b580666aec634d673f3ad9785575f695e))
+  *  try the file messages.json ([2326e874](https://github.com/Kristinita/SashaGitHub/commit/2326e874024b4247bab82521284b1b5f7fcc23ee))
+  *  try command as in previous release-it versions ([c7d7f3cc](https://github.com/Kristinita/SashaGitHub/commit/c7d7f3cce89bef4159ff845b4bf37ce79440e28f))
+  *  try command as in previous release-it versions ([30243434](https://github.com/Kristinita/SashaGitHub/commit/302434343e8bc1e600b670c246e5b9a325eed8db))
+  *  try hook ([f80ad729](https://github.com/Kristinita/SashaGitHub/commit/f80ad7294bfd0246f6757e2161bd1e950bbaa949))
+
 #### 1.9.7 (2025-05-08)
 
 ##### Other Changes
