@@ -1,5 +1,17 @@
 # Changelog
 
+## <small>1.9.15 (2025-05-08)</small>
+
+* deploy(release-it): try triple escaping of tab ([752285c](https://github.com/Kristinita/SashaGitHub/commit/752285c))
+
+#### 1.9.15 (2025-05-08)
+
+##### Other Changes
+
+* **release-it:**  try triple escaping of tab ([752285c7](https://github.com/Kristinita/SashaGitHub/commit/752285c7a8df8a1709636283c5ab79bfdabd2e60))
+
+
+
 ## <small>1.9.14 (2025-05-08)</small>
 
 * deploy(release-it): try escaping slashes ([0453078](https://github.com/Kristinita/SashaGitHub/commit/0453078))
