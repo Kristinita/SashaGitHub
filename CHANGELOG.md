@@ -1,3 +1,12 @@
+#### 1.9.5 (2025-05-08)
+
+##### Other Changes
+
+* **release-it:**
+  *  try command as in previous release-it versions ([c7d7f3cc](https://github.com/Kristinita/SashaGitHub/commit/c7d7f3cce89bef4159ff845b4bf37ce79440e28f))
+  *  try command as in previous release-it versions ([30243434](https://github.com/Kristinita/SashaGitHub/commit/302434343e8bc1e600b670c246e5b9a325eed8db))
+  *  try hook ([f80ad729](https://github.com/Kristinita/SashaGitHub/commit/f80ad7294bfd0246f6757e2161bd1e950bbaa949))
+
 # Changelog
 
 ## <small>1.9.2 (2025-05-08)</small>
