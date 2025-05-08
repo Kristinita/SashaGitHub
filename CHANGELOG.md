@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.9.0 (2025-05-08)
+
+* feat(release-it): try standard preset type ([3b92c3f](https://github.com/Kristinita/SashaGitHub/commit/3b92c3f))
+
 ## <small>1.8.7 (2025-05-08)</small>
 
 * deploy(release-it): try move types to the preset section ([569ea5e](https://github.com/Kristinita/SashaGitHub/commit/569ea5e))
