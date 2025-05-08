@@ -1,3 +1,30 @@
+# Changelog
+
+## <small>1.9.10 (2025-05-08)</small>
+
+* deploy(release-it): create the folder 'messages' ([3cb1902](https://github.com/Kristinita/SashaGitHub/commit/3cb1902))
+* deploy(release-it): fix escaping in Sed command ([2842663](https://github.com/Kristinita/SashaGitHub/commit/2842663))
+* deploy(release-it): try command as in previous release-it versions ([c7d7f3c](https://github.com/Kristinita/SashaGitHub/commit/c7d7f3c))
+* deploy(release-it): try command as in previous release-it versions ([3024343](https://github.com/Kristinita/SashaGitHub/commit/3024343))
+* deploy(release-it): try fixed Sed command ([72ffb6d](https://github.com/Kristinita/SashaGitHub/commit/72ffb6d))
+* deploy(release-it): try hook ([f80ad72](https://github.com/Kristinita/SashaGitHub/commit/f80ad72))
+* deploy(release-it): try the file messages.json ([2326e87](https://github.com/Kristinita/SashaGitHub/commit/2326e87))
+* deploy(release-it): try unescaped JSON in the Sed command ([4cda2d7](https://github.com/Kristinita/SashaGitHub/commit/4cda2d7))
+
+#### 1.9.10 (2025-05-08)
+
+##### Other Changes
+
+* **release-it:**
+  *  try fixed Sed command ([72ffb6d8](https://github.com/Kristinita/SashaGitHub/commit/72ffb6d8ba8c70e45f9580b74ccf420b883a54f4))
+  *  fix escaping in Sed command ([28426632](https://github.com/Kristinita/SashaGitHub/commit/284266320f0d44b18bbcbff2c469c845ef4a58e9))
+  *  try unescaped JSON in the Sed command ([4cda2d79](https://github.com/Kristinita/SashaGitHub/commit/4cda2d791aec04b94f58b00cb9d6cef98b246866))
+  *  create the folder 'messages' ([3cb1902b](https://github.com/Kristinita/SashaGitHub/commit/3cb1902b580666aec634d673f3ad9785575f695e))
+  *  try the file messages.json ([2326e874](https://github.com/Kristinita/SashaGitHub/commit/2326e874024b4247bab82521284b1b5f7fcc23ee))
+  *  try command as in previous release-it versions ([c7d7f3cc](https://github.com/Kristinita/SashaGitHub/commit/c7d7f3cce89bef4159ff845b4bf37ce79440e28f))
+  *  try command as in previous release-it versions ([30243434](https://github.com/Kristinita/SashaGitHub/commit/302434343e8bc1e600b670c246e5b9a325eed8db))
+  *  try hook ([f80ad729](https://github.com/Kristinita/SashaGitHub/commit/f80ad7294bfd0246f6757e2161bd1e950bbaa949))
+
 #### 1.9.9 (2025-05-08)
 
 ##### Other Changes
@@ -53,7 +80,7 @@
   *  try command as in previous release-it versions ([30243434](https://github.com/Kristinita/SashaGitHub/commit/302434343e8bc1e600b670c246e5b9a325eed8db))
   *  try hook ([f80ad729](https://github.com/Kristinita/SashaGitHub/commit/f80ad7294bfd0246f6757e2161bd1e950bbaa949))
 
-# Changelog
+
 
 ## <small>1.9.2 (2025-05-08)</small>
 
