@@ -3,6 +3,7 @@
 ################
 # [OVERVIEW] Define and maintain consistent coding styles between different editors and IDEs:
 # http://editorconfig.org/
+#
 # [NOTE] No linters for linting “.editorconfig” file:
 # https://github.com/editorconfig/editorconfig/issues/345
 
@@ -15,36 +16,27 @@
 # Tabs = 4 spaces for CoffeeScript always
 [*]
 charset = utf-8
-end_of_line = lf
-indent_size = 4
-indent_style = tab
-insert_final_newline = true
-trim_trailing_whitespace = true
 
-
-# [INFO] ECLint — ignore leading spaces in comments:
-# https://www.npmjs.com/package/eclint#support-for-doc-comments
-# https://www.npmjs.com/package/eclint#block_comment_start
-#
-# [WARNING] Leading spaces doesn't deleted:
-# https://github.com/jedmao/eclint/issues/155
-block_comment = *
-block_comment_end = */
-block_comment_start = /*
-
-
-# [INFO] Windows line endings in batch file.
-# If LF, user may have some problems:
-# for me, incorrect output, if unicode symbols in batch comments
+# [BATCH][INFO] Batch files needed CRLF line endings.
+# If batch files has LF line endings, a user may have some problems,
+# for example, I was getting incorrect output, when my comments contained Unicode symbols:
 # https://stackoverflow.com/a/38836221/5951529
 # https://serverfault.com/a/429598/351829
-[*.bat]
-end_of_line = crlf
+#
+# [DISABLING_REASON] I no longer use batch files in this project
+end_of_line = lf
+insert_final_newline = true
+indent_size = 4
+indent_style = tab
 
-# [INFO] Markdown support trailing spaces:
+# [MARKDOWN][INFO] Markdown supports trailing spaces:
 # http://markdown-guide.readthedocs.io/en/latest/basics.html#line-return
-[*.md]
-trim_trailing_whitespace = false
+#
+# [DISABLING_REASON] I don’t use trailing spaces in my Markdown, I think it’s an antipattern.
+# I never used in my Markdown code blocks languages that required trailing spaces:
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md009.md
+trim_trailing_whitespace = true
+
 
 # [NOTE] YAML doesn’t support tabs:
 # http://yaml.org/faq.html
