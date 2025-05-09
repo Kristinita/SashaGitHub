@@ -1,9 +1,3 @@
-# Changelog
-
-## <small>1.9.16 (2025-05-09)</small>
-
-* deploy(release-it): try sed command without a tempfile ([4b55d64](https://github.com/Kristinita/SashaGitHub/commit/4b55d64))
-
 #### 1.9.10 (2025-05-08)
 
 ##### Other Changes
