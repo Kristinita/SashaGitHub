@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.9.24
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.23...v1.9.24)
+
+### 🩹 Fixes
+
+- **release-it:** Try changelogen for hook ([3e22ea1](https://github.com/Kristinita/SashaGitHub/commit/3e22ea1))
+
+### 🛡 Deployment
+
+- **release-it:** Try change emoji for deployment ([72101f3](https://github.com/Kristinita/SashaGitHub/commit/72101f3))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.23
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.22...v1.9.23)
