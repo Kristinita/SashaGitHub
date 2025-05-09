@@ -9,7 +9,7 @@ git:
 #   release: true
 
 hooks:
-  after:git:bump: >
+  before:git:bump: >
     changelog --file - --repo-url https://${repo.host}/${repo.repository} |
     tee messages/${version}.txt
     && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
