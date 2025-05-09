@@ -1,0 +1,8 @@
+#### 1.9.23 (2025-05-09)
+
+##### Other Changes
+
+* **release-it:**
+  *  try before bump ([0c294f32](https://github.com/Kristinita/SashaGitHub/commit/0c294f323867791f079521db1ed3d3cc1153db82))
+  *  try custom type deploy ([c9e5b2c4](https://github.com/Kristinita/SashaGitHub/commit/c9e5b2c4523a36162e79e87c9aa52766b212da1a))
+
