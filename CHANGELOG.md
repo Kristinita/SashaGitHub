@@ -1,3 +1,11 @@
+#### 1.9.23 (2025-05-09)
+
+##### Other Changes
+
+* **release-it:**
+  *  try before bump ([0c294f32](https://github.com/Kristinita/SashaGitHub/commit/0c294f323867791f079521db1ed3d3cc1153db82))
+  *  try custom type deploy ([c9e5b2c4](https://github.com/Kristinita/SashaGitHub/commit/c9e5b2c4523a36162e79e87c9aa52766b212da1a))
+
 #### 1.9.22 (2025-05-09)
 
 ##### Bug Fixes
@@ -28,6 +36,19 @@
 * **release-it:**  try changelogen ([9faa8885](https://github.com/Kristinita/SashaGitHub/commit/9faa8885d01ae43411fc1390943ff9fe5f54d31a))
 
 # Changelog
+
+## v1.9.23
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.22...v1.9.23)
+
+### 🤖 Deployment
+
+- **release-it:** Try custom type deploy ([c9e5b2c](https://github.com/Kristinita/SashaGitHub/commit/c9e5b2c))
+- **release-it:** Try before bump ([0c294f3](https://github.com/Kristinita/SashaGitHub/commit/0c294f3))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
 
 ## v1.9.22
 
