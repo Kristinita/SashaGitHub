@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.30
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.29...v1.9.30)
+
+### 🩹 Fixes
+
+- **release-it:** Fix typo in the after:git:release command ([beffd54](https://github.com/Kristinita/SashaGitHub/commit/beffd54))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.29
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.28...v1.9.29)
