@@ -1,0 +1,19 @@
+
+
+## 1.9.28...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.28...KiraReleaseIt)
+
+### ✅ Tests
+
+- **release-it:** Try after:git:release ([2aed8a8](https://github.com/Kristinita/SashaGitHub/commit/2aed8a8))
+
+### 🛡 Deployment
+
+- **release-it:** Push changes to GitHub ([5956845](https://github.com/Kristinita/SashaGitHub/commit/5956845))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+
