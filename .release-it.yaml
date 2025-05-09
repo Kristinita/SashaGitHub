@@ -9,9 +9,10 @@ git:
 
 hooks:
   after:git:bump: >
-    changelog - --repo-url https://${repo.host}/${repo.repository} |
-    tee messages/${version}.txt | cat - CHANGELOG.md > temp
-    && mv temp CHANGELOG.md && sed --in-place '/"install": "messages\/install.txt"/i
+    changelog --file - --repo-url https://${repo.host}/${repo.repository} |
+    tee messages/${version}.txt |
+    sed --in-place '0r messages/${version}.txt' CHANGELOG.md
+    && sed --in-place '/"install": "messages\/install.txt"/i
     \\\t"${version}": "messages\/${version}.txt",' messages.json
 
 npm:
