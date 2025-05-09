@@ -1,5 +1,5 @@
 git:
-  changelog: changelog --file - --repo-url https://${repo.host}/${repo.repository}
+  changelog: npx changelogen
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
   pushArgs: --tags
@@ -10,7 +10,9 @@ git:
 
 hooks:
   after:git:bump: >
-    sed --in-place '0r messages/${version}.txt' CHANGELOG.md
+    changelog --file - --repo-url https://${repo.host}/${repo.repository} |
+    tee messages/${version}.txt
+    && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
     && sed --in-place '/"install": "messages\/install.txt"/i
     \\\t"${version}": "messages\/${version}.txt",' messages.json
 
