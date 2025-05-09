@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.34
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.33...v1.9.34)
+
+### 🛡 Deployment
+
+- **release-it:** Try moving Git commands to the after:bump section ([33500ea](https://github.com/Kristinita/SashaGitHub/commit/33500ea))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.33
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.32...v1.9.33)

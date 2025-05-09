@@ -1,0 +1,15 @@
+
+
+## 1.9.33...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.33...KiraReleaseIt)
+
+### 🛡 Deployment
+
+- **release-it:** Try moving Git commands to the after:bump section ([33500ea](https://github.com/Kristinita/SashaGitHub/commit/33500ea))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+
