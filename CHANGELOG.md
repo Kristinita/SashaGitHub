@@ -1,3 +1,9 @@
+#### 1.9.19 (2025-05-09)
+
+##### Other Changes
+
+* **release-it:**  try changelogen ([9faa8885](https://github.com/Kristinita/SashaGitHub/commit/9faa8885d01ae43411fc1390943ff9fe5f54d31a))
+
 # Changelog
 
 ## <small>1.9.17 (2025-05-09)</small>
