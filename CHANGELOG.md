@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.25
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.24...v1.9.25)
+
+### 🛡 Deployment
+
+- **release-it:** Add addUntrackedFile setting ([f1f3c24](https://github.com/Kristinita/SashaGitHub/commit/f1f3c24))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.24
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.23...v1.9.24)
