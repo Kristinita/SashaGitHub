@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.33
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.32...v1.9.33)
+
+### 🛡 Deployment
+
+- **release-it:** Try hiding the option after:git:release ([57c3c85](https://github.com/Kristinita/SashaGitHub/commit/57c3c85))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.32
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.31...v1.9.32)

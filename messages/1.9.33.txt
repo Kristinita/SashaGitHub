@@ -1,0 +1,15 @@
+
+
+## 1.9.32...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.32...KiraReleaseIt)
+
+### 🛡 Deployment
+
+- **release-it:** Try hiding the option after:git:release ([57c3c85](https://github.com/Kristinita/SashaGitHub/commit/57c3c85))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+
