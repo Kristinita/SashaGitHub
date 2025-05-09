@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.9.28
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.27...v1.9.28)
+
+### 🛡 Deployment
+
+- **changelogen:** Try the file .changelogrc ([e170776](https://github.com/Kristinita/SashaGitHub/commit/e170776))
+- **changelogen:** Try disable git: changelog ([debdef7](https://github.com/Kristinita/SashaGitHub/commit/debdef7))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.27
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.26...v1.9.27)
