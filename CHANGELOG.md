@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.31
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.30...v1.9.31)
+
+### 🩹 Fixes
+
+- **typo:** Add trailer to git commit command ([a947bcc](https://github.com/Kristinita/SashaGitHub/commit/a947bcc))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.30
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.29...v1.9.30)
