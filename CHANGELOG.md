@@ -1,3 +1,18 @@
+# Changelog
+
+## <small>1.9.17 (2025-05-09)</small>
+
+* deploy(release-it): try correct chain of commands ([d88f045](https://github.com/Kristinita/SashaGitHub/commit/d88f045))
+* deploy(release-it): try to use && instead of | ([b3d9d74](https://github.com/Kristinita/SashaGitHub/commit/b3d9d74))
+
+#### 1.9.17 (2025-05-09)
+
+##### Other Changes
+
+* **release-it:**
+  *  try correct chain of commands ([d88f0457](https://github.com/Kristinita/SashaGitHub/commit/d88f04577614d7939900a1c3d4014582f29b3bdf))
+  *  try to use && instead of | ([b3d9d748](https://github.com/Kristinita/SashaGitHub/commit/b3d9d74837af87887fc2dd9c2dd83e5538f407b9))
+
 #### 1.9.16 (2025-05-09)
 
 ##### Other Changes
