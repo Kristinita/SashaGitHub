@@ -1,7 +1,7 @@
 git:
   changelog: npx changelogen
   commitArgs: --signoff
-  # commitMessage: "deploy(release-it): release v${version}"
+  commitMessage: "deploy(release-it): release v${version}"
   pushArgs: --tags
   requireUpstream: false
 

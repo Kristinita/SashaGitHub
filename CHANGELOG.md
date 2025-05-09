@@ -1,3 +1,11 @@
+#### 1.9.20 (2025-05-09)
+
+##### Other Changes
+
+* **release-it:**
+  *  try changelogen plugin for Release-it ([efcd8cbc](https://github.com/Kristinita/SashaGitHub/commit/efcd8cbcb4c64e9b00c28da8a15a6e2800849fab))
+  *  try changelogen plugin ([14a13dab](https://github.com/Kristinita/SashaGitHub/commit/14a13dabf78eea480fd05f1ff0ab2b797832d1f5))
+
 #### 1.9.19 (2025-05-09)
 
 ##### Other Changes
@@ -5,6 +13,10 @@
 * **release-it:**  try changelogen ([9faa8885](https://github.com/Kristinita/SashaGitHub/commit/9faa8885d01ae43411fc1390943ff9fe5f54d31a))
 
 # Changelog
+
+## v1.9.20
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.19...v1.9.20)
 
 ## <small>1.9.17 (2025-05-09)</small>
 
