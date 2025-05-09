@@ -6,6 +6,7 @@ git:
   # commitMessage: "deploy(release-it): release v${version}"
   # pushArgs: --tags
   requireUpstream: false
+  tagName: v${version}
 
 # github:
 #   release: true
