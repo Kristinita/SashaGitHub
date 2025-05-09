@@ -7,12 +7,12 @@ git:
 
 # github:
 #   release: true
+# && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
 
 hooks:
   before:git:bump: >
     npx changelogen |
     tee messages/${version}.txt
-    && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
     && sed --in-place '/"install": "messages\/install.txt"/i
     \\\t"${version}": "messages\/${version}.txt",' messages.json
 
@@ -26,7 +26,7 @@ plugins:
       commitMessage: "deploy(release-it): release v{{newVersion}}"
     types:
       deploy:
-        title: 🤖 Deployment
+        title: 🛡 Deployment
 
 # "@release-it/bumper":
 #   out: messages/${version}.txt
