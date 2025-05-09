@@ -1,0 +1,16 @@
+
+
+## 1.9.34...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.34...KiraReleaseIt)
+
+### 🛡 Deployment
+
+- **release-it:** Try disabling an additional commit ([033410c](https://github.com/Kristinita/SashaGitHub/commit/033410c))
+- **release-it:** Fix after:bump command ([cc31ddb](https://github.com/Kristinita/SashaGitHub/commit/cc31ddb))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+

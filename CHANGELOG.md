@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.9.36
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.34...v1.9.36)
+
+### 🛡 Deployment
+
+- **release-it:** Try disabling an additional commit ([033410c](https://github.com/Kristinita/SashaGitHub/commit/033410c))
+- **release-it:** Fix after:bump command ([cc31ddb](https://github.com/Kristinita/SashaGitHub/commit/cc31ddb))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.35
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.34...v1.9.35)
