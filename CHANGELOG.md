@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.9.29
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.28...v1.9.29)
+
+### ✅ Tests
+
+- **release-it:** Try after:git:release ([2aed8a8](https://github.com/Kristinita/SashaGitHub/commit/2aed8a8))
+
+### 🛡 Deployment
+
+- **release-it:** Push changes to GitHub ([5956845](https://github.com/Kristinita/SashaGitHub/commit/5956845))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.28
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.27...v1.9.28)
