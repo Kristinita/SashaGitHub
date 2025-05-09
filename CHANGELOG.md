@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.9.32
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.31...v1.9.32)
+
+### 🛡 Deployment
+
+- **release-it:** Push files of the version 1.9.31 ([06ec7b7](https://github.com/Kristinita/SashaGitHub/commit/06ec7b7))
+- **release-it:** Try the option addUntrackedFiles ([e3d6416](https://github.com/Kristinita/SashaGitHub/commit/e3d6416))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.31
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.30...v1.9.31)

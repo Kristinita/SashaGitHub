@@ -1,0 +1,16 @@
+
+
+## 1.9.31...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.31...KiraReleaseIt)
+
+### 🛡 Deployment
+
+- **release-it:** Push files of the version 1.9.31 ([06ec7b7](https://github.com/Kristinita/SashaGitHub/commit/06ec7b7))
+- **release-it:** Try the option addUntrackedFiles ([e3d6416](https://github.com/Kristinita/SashaGitHub/commit/e3d6416))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+
