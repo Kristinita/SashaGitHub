@@ -1,4 +1,5 @@
 git:
+  changelog: changelog --file - --repo-url https://${repo.host}/${repo.repository}
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
   pushArgs: --tags
@@ -9,9 +10,7 @@ git:
 
 hooks:
   after:git:bump: >
-    changelog --file - --repo-url https://${repo.host}/${repo.repository} |
-    tee messages/${version}.txt
-    && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
+    sed --in-place '0r messages/${version}.txt' CHANGELOG.md
     && sed --in-place '/"install": "messages\/install.txt"/i
     \\\t"${version}": "messages\/${version}.txt",' messages.json
 
@@ -19,15 +18,19 @@ npm:
   publish: false
 
 plugins:
-  "@release-it/conventional-changelog":
-    infile: CHANGELOG.md
-    preset:
-      name: angular
-      types:
-      - section: Deployments
-        type: deploy
-    writerOpts:
-      groupBy: scope
+
+  "@release-it/bumper":
+    out: messages/${version}.txt
+
+# "@release-it/conventional-changelog":
+#   infile: CHANGELOG.md
+#   preset:
+#     name: angular
+#     types:
+#     - section: Deployments
+#       type: deploy
+#   writerOpts:
+#     groupBy: scope
 
 #   "@release-it/keep-a-changelog":
 #     filename: CHANGELOG.md
