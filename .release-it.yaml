@@ -15,11 +15,10 @@ hooks:
     npx changelogen |
     tee messages/${version}.txt &&
     sed --in-place '/"install": "messages\/install.txt"/i
-    \\\t"${version}": "messages\/${version}.txt",' messages.json
-  # after:git:release: >
-  #   git add --all &&
-  #   git commit --message="deploy(release-it): push files of the version ${version}" --signoff &&
-  #   git push
+    \\\t"${version}": "messages\/${version}.txt",' messages.json &&
+    git add --all &&
+    git commit --message="deploy(release-it): push files of the version ${version}" --signoff &&
+    git push
 
 npm:
   publish: false
