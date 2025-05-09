@@ -1,0 +1,15 @@
+
+
+## v1.9.39...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.39...KiraReleaseIt)
+
+### 🛡 Deployment
+
+- **release-it:** Try to disable package-lock.json ([0e869f0](https://github.com/Kristinita/SashaGitHub/commit/0e869f0))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+

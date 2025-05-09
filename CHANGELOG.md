@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.40
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.39...v1.9.40)
+
+### 🛡 Deployment
+
+- **release-it:** Try to disable package-lock.json ([0e869f0](https://github.com/Kristinita/SashaGitHub/commit/0e869f0))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.39
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.38...v1.9.39)
