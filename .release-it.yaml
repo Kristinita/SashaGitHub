@@ -1,7 +1,7 @@
 git:
   changelog: npx changelogen
   commitArgs: --signoff
-  commitMessage: "deploy(release-it): release v${version}"
+  # commitMessage: "deploy(release-it): release v${version}"
   pushArgs: --tags
   requireUpstream: false
 
@@ -21,8 +21,14 @@ npm:
 
 plugins:
 
-  "@release-it/bumper":
-    out: messages/${version}.txt
+  release-it-changelogen:
+    templates:
+      commitMessage: "deploy(release-it): release v{{newVersion}}"
+      tagBody: v{{newVersion}}
+      tagMessage: v{{newVersion}}
+
+# "@release-it/bumper":
+#   out: messages/${version}.txt
 
 # "@release-it/conventional-changelog":
 #   infile: CHANGELOG.md
