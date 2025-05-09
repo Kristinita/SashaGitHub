@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.37
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.36...v1.9.37)
+
+### 🛡 Deployment
+
+- **release-it:** Try commit: false ([bd4a9e1](https://github.com/Kristinita/SashaGitHub/commit/bd4a9e1))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.36
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.34...v1.9.36)

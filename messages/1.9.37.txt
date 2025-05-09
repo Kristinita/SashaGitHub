@@ -1,0 +1,15 @@
+
+
+## 1.9.36...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.36...KiraReleaseIt)
+
+### 🛡 Deployment
+
+- **release-it:** Try commit: false ([bd4a9e1](https://github.com/Kristinita/SashaGitHub/commit/bd4a9e1))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+
