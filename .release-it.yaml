@@ -1,5 +1,5 @@
 git:
-  # addUntrackedFiles: true
+  addUntrackedFiles: true
   changelog: npx changelogen
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
