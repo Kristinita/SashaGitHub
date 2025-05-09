@@ -1,0 +1,15 @@
+
+
+## 1.9.29...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.29...KiraReleaseIt)
+
+### 🩹 Fixes
+
+- **release-it:** Fix typo in the after:git:release command ([beffd54](https://github.com/Kristinita/SashaGitHub/commit/beffd54))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+
