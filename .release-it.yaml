@@ -10,8 +10,8 @@ git:
 hooks:
   after:git:bump: >
     changelog --file - --repo-url https://${repo.host}/${repo.repository} |
-    tee messages/${version}.txt |
-    sed --in-place '0r messages/${version}.txt' CHANGELOG.md
+    tee messages/${version}.txt
+    && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
     && sed --in-place '/"install": "messages\/install.txt"/i
     \\\t"${version}": "messages\/${version}.txt",' messages.json
 

@@ -1,3 +1,9 @@
+#### 1.9.16 (2025-05-09)
+
+##### Other Changes
+
+* **release-it:**  try to use && instead of | ([b3d9d748](https://github.com/Kristinita/SashaGitHub/commit/b3d9d74837af87887fc2dd9c2dd83e5538f407b9))
+
 #### 1.9.10 (2025-05-08)
 
 ##### Other Changes
