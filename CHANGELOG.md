@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.9.38
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.37...v1.9.38)
+
+### 🛡 Deployment
+
+- **changelogen:** Try the empty value for the release-it-changelogen ([afac51c](https://github.com/Kristinita/SashaGitHub/commit/afac51c))
+- **changelogen:** Try braces for the Changelogen plugin ([bb7b027](https://github.com/Kristinita/SashaGitHub/commit/bb7b027))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.37
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.36...v1.9.37)
