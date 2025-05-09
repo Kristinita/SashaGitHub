@@ -1,3 +1,9 @@
+#### 1.9.22 (2025-05-09)
+
+##### Bug Fixes
+
+* **release-it:**  try default scope ([b06c61d3](https://github.com/Kristinita/SashaGitHub/commit/b06c61d3c705d4837df3f0179a7f50861855e6e0))
+
 #### 1.9.21 (2025-05-09)
 
 ##### Other Changes
@@ -22,6 +28,18 @@
 * **release-it:**  try changelogen ([9faa8885](https://github.com/Kristinita/SashaGitHub/commit/9faa8885d01ae43411fc1390943ff9fe5f54d31a))
 
 # Changelog
+
+## v1.9.22
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.21...v1.9.22)
+
+### 🩹 Fixes
+
+- **release-it:** Try default scope ([b06c61d](https://github.com/Kristinita/SashaGitHub/commit/b06c61d))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
 
 ## v1.9.21
 
