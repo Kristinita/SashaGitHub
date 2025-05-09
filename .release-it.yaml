@@ -1,6 +1,6 @@
 git:
   # addUntrackedFiles: true
-  # changelog: npx changelogen
+  changelog: npx changelogen
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
   pushArgs: --tags
@@ -16,6 +16,10 @@ hooks:
     tee messages/${version}.txt
     && sed --in-place '/"install": "messages\/install.txt"/i
     \\\t"${version}": "messages\/${version}.txt",' messages.json
+  after:git:release: >
+    git add --all
+    git commit --message="deploy(release-it): push files of the version ${version}"
+    git push
 
 npm:
   publish: false
