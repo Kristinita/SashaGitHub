@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.39
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.38...v1.9.39)
+
+### 🛡 Deployment
+
+- **changelogen:** Try adding v to the tag name ([7d7a47a](https://github.com/Kristinita/SashaGitHub/commit/7d7a47a))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.38
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.37...v1.9.38)
