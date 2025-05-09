@@ -1,4 +1,5 @@
 git:
+  addUntrackedFiles: true
   changelog: npx changelogen
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
@@ -10,7 +11,7 @@ git:
 # && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
 
 hooks:
-  before:git:bump: >
+  after:bump: >
     npx changelogen |
     tee messages/${version}.txt
     && sed --in-place '/"install": "messages\/install.txt"/i

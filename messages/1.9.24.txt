@@ -1,0 +1,15 @@
+
+
+## 1.9.23...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.23...KiraReleaseIt)
+
+### 🩹 Fixes
+
+- **release-it:** Try changelogen for hook ([3e22ea1](https://github.com/Kristinita/SashaGitHub/commit/3e22ea1))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+
