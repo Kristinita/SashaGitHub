@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.35
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.34...v1.9.35)
+
+### 🛡 Deployment
+
+- **release-it:** Try disabling an additional commit ([033410c](https://github.com/Kristinita/SashaGitHub/commit/033410c))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.34
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/1.9.33...v1.9.34)
