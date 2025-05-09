@@ -24,8 +24,6 @@ plugins:
   release-it-changelogen:
     templates:
       commitMessage: "deploy(release-it): release v{{newVersion}}"
-      tagBody: v{{newVersion}}
-      tagMessage: v{{newVersion}}
 
 # "@release-it/bumper":
 #   out: messages/${version}.txt
