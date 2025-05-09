@@ -25,9 +25,9 @@ plugins:
   release-it-changelogen:
     templates:
       commitMessage: "deploy(release-it): release v{{newVersion}}"
-    types:
-      deploy:
-        title: 🛡 Deployment
+    # types:
+    #   deploy:
+    #     title: 🛡 Deployment
 
 # "@release-it/bumper":
 #   out: messages/${version}.txt
