@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.42
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.41...v1.9.42)
+
+### 🛡 Deployment
+
+- **changelogen:** Try inspecting Changelogen command ([efdeae0](https://github.com/Kristinita/SashaGitHub/commit/efdeae0))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
 ## v1.9.41
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.40...v1.9.41)

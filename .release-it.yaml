@@ -16,7 +16,7 @@ git:
 
 hooks:
   after:bump: >
-    npx changelogen |
+    npx changelogen --bump |
     tee messages/${version}.txt &&
     json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab &&
     git add --all &&
