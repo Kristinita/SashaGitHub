@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.45
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.43...v1.9.45)
+
+### 🛡 Deployment
+
+- **changelogen:** Try disabling git:changelog ([86d5f3a](https://github.com/Kristinita/SashaGitHub/commit/86d5f3a))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.44
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.41...v1.9.44)
