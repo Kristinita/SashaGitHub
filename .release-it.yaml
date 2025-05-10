@@ -11,13 +11,14 @@ git:
 # github:
 #   release: true
 # && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
+# sed --in-place '/"install": "messages\/install.txt"/i
+# \\\t"${version}": "messages\/${version}.txt",' messages.json &&
 
 hooks:
   after:bump: >
     npx changelogen |
     tee messages/${version}.txt &&
-    sed --in-place '/"install": "messages\/install.txt"/i
-    \\\t"${version}": "messages\/${version}.txt",' messages.json &&
+    json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab &&
     git add --all &&
     git commit --message="deploy(release-it): release ${version}" --signoff &&
     git push

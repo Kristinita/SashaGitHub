@@ -9,6 +9,7 @@
 		"@release-it/keep-a-changelog": "^7.0.0",
 		"changelogen": "^0.6.1",
 		"git-upload": "^1.1.4",
+		"json": "^11.0.0",
 		"release-it": "^19.0.2",
 		"release-it-changelogen": "^0.1.0",
 		"simple-git-hooks": "^2.11.1"
