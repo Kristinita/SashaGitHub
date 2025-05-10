@@ -1,5 +1,31 @@
 # Changelog
 
+## v1.9.44
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.41...v1.9.44)
+
+### 🛡 Deployment
+
+- **changelogen:** Try inspecting Changelogen command ([efdeae0](https://github.com/Kristinita/SashaGitHub/commit/efdeae0))
+- **changelogen:** Try --bump command-line argument ([3d46e70](https://github.com/Kristinita/SashaGitHub/commit/3d46e70))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](https://github.com/Kristinita))
+
+## v1.9.43
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.41...v1.9.43)
+
+### 🛡 Deployment
+
+- **changelogen:** Try inspecting Changelogen command ([efdeae0](https://github.com/Kristinita/SashaGitHub/commit/efdeae0))
+- **changelogen:** Try --bump command-line argument ([3d46e70](https://github.com/Kristinita/SashaGitHub/commit/3d46e70))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.42
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.41...v1.9.42)

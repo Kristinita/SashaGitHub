@@ -1,0 +1,2 @@
+[36mi[39m Bumping npm package version from [36m1.9.43[39m to [36m1.9.44[39m (patch)
+[36mi[39m Updating D:\SashaDemoRepositories\SashaGitHub\CHANGELOG.md
