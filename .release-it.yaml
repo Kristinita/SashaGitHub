@@ -1,6 +1,6 @@
 git:
   # addUntrackedFiles: true
-  changelog: npx changelogen
+  # changelog: npx changelogen
   commit: false
   # commitArgs: --signoff
   # commitMessage: "deploy(release-it): release v${version}"
@@ -16,7 +16,7 @@ git:
 
 hooks:
   after:bump: >
-    npx changelogen --bump |
+    npx changelogen |
     tee messages/${version}.txt &&
     json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab &&
     git add --all &&
