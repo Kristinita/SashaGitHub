@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.41
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.40...v1.9.41)
+
+### 🛡 Deployment
+
+- **release-it:** Try trentm/json instead of Sed ([e4d8832](https://github.com/Kristinita/SashaGitHub/commit/e4d8832))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.40
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.39...v1.9.40)
