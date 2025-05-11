@@ -325,6 +325,8 @@ rules:
     # [INFO] Initialize the project
     - init
 
+    - kira
+
     # [INFO] Changes for linters/checkers/validators.
     # Example scopes — “eslint”, “stylint”
     - lint
