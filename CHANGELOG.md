@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.9.46
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.45...v1.9.46)
+
+### 🛡 Deployment
+
+- **changelogen:** Try the option disableVersion ([9d6476a](https://github.com/Kristinita/SashaGitHub/commit/9d6476a))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.45
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.43...v1.9.45)
