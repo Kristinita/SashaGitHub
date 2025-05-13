@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.10.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.47...v1.10.0)
+
+### 🛡 Deployment
+
+- **release-it:** Try fix the file .release-it.yaml ([6f79ccf](https://github.com/Kristinita/SashaGitHub/commit/6f79ccf))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.9.46
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.45...v1.9.46)

@@ -1,0 +1,15 @@
+
+
+## v1.9.47...KiraReleaseIt
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.9.47...KiraReleaseIt)
+
+### 🛡 Deployment
+
+- **release-it:** Try fix the file .release-it.yaml ([6f79ccf](https://github.com/Kristinita/SashaGitHub/commit/6f79ccf))
+
+### ❤️ Contributors
+
+- Kristinita
+
+
