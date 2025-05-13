@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.4.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.3.0...v2.4.0)
+
+### 📦 Build
+
+- **grunt:** Try run Release-It with Grunt ([b81560f](https://github.com/Kristinita/SashaGitHub/commit/b81560f))
+- **grunt:** Install CoffeeScript ([b8b15be](https://github.com/Kristinita/SashaGitHub/commit/b8b15be))
+
+### 📦 Deployment
+
+- **release-it:** Try encrypted variable TOKEN_FOR_RELEASE_IT ([6ca6a6d](https://github.com/Kristinita/SashaGitHub/commit/6ca6a6d))
+
+### 🛡 Security
+
+- **dotenvx:** Try adding the file .env for Dotenvx ([d80bd74](https://github.com/Kristinita/SashaGitHub/commit/d80bd74))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.3.0
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.2.0...v2.3.0)
