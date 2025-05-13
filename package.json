@@ -6,6 +6,8 @@
 		"@commitlint/config-conventional": "^19.8.0",
 		"@dotenvx/dotenvx": "^1.44.0",
 		"git-upload": "^1.1.4",
+		"grunt": "^1.6.1",
+		"grunt-shell": "^4.0.0",
 		"json": "^11.0.0",
 		"release-it": "^19.0.2",
 		"release-it-changelogen": "^0.1.0",
