@@ -4,10 +4,6 @@
 	"devDependencies": {
 		"@commitlint/cli": "^19.8.0",
 		"@commitlint/config-conventional": "^19.8.0",
-		"@release-it/bumper": "^7.0.5",
-		"@release-it/conventional-changelog": "^10.0.1",
-		"@release-it/keep-a-changelog": "^7.0.0",
-		"changelogen": "^0.6.1",
 		"git-upload": "^1.1.4",
 		"json": "^11.0.0",
 		"release-it": "^19.0.2",
