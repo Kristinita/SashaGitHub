@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.0.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.11.1...v2.0.0)
+
+### 🛡 Deployment
+
+- **release-it:** Try temporary disable hooks ([a8b2ca5](https://github.com/Kristinita/SashaGitHub/commit/a8b2ca5))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v1.11.1
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.11.0...v1.11.1)
