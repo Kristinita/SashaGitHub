@@ -6,11 +6,11 @@ git:
   requireUpstream: false
   tagName: v${version}
 
-hooks:
-  after:bump: >
-    npx changelogen |
-    tee messages/${version}.txt &&
-    json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab
+# hooks:
+#   after:bump: >
+#     npx changelogen |
+#     tee messages/${version}.txt &&
+#     json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab
 
 # git add --all &&
 # git commit --message="deploy(release-it): release ${version}" --signoff &&
