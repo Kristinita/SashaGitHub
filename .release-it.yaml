@@ -1,27 +1,20 @@
 git:
-  # addUntrackedFiles: true
-  # changelog: npx changelogen
-  commit: false
-  # commitArgs: --signoff
-  # commitMessage: "deploy(release-it): release v${version}"
-  # pushArgs: --tags
+  addUntrackedFiles: true
+  # commit: false
+  commitArgs: --signoff
+  commitMessage: "deploy(release-it): release v${version}"
   requireUpstream: false
   tagName: v${version}
 
-# github:
-#   release: true
-# && sed --in-place '0r messages/${version}.txt' CHANGELOG.md
-# sed --in-place '/"install": "messages\/install.txt"/i
-# \\\t"${version}": "messages\/${version}.txt",' messages.json &&
-
 hooks:
   after:bump: >
-    npx changelogen --bump --no-output |
+    npx changelogen |
     tee messages/${version}.txt &&
-    json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab &&
-    git add --all &&
-    git commit --message="deploy(release-it): release ${version}" --signoff &&
-    git push
+    json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab
+
+# git add --all &&
+# git commit --message="deploy(release-it): release ${version}" --signoff &&
+# git push
 
 npm:
   publish: false
@@ -29,26 +22,8 @@ npm:
 plugins:
   release-it-changelogen:
     disableVersion: true
+    templates:
+      commitMessage: "deploy(release-it): release {{newVersion}}"
+      tagMessage: v{{newVersion}}
 
-# templates:
-# commitMessage: "deploy(release-it): release v{{newVersion}}"
-
-# types:
-#   deploy:
-#     title: 🛡 Deployment
-
-# "@release-it/bumper":
-#   out: messages/${version}.txt
-
-# "@release-it/conventional-changelog":
-#   infile: CHANGELOG.md
-#   preset:
-#     name: angular
-#     types:
-#     - section: Deployments
-#       type: deploy
-#   writerOpts:
-#     groupBy: scope
-
-#   "@release-it/keep-a-changelog":
-#     filename: CHANGELOG.md
+verbose: 2
