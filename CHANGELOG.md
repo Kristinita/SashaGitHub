@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.1.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.0.0...v2.1.0)
+
+### 🛡 Deployment
+
+- **release-it:** Remove extra Release-it packages ([b4ac4c5](https://github.com/Kristinita/SashaGitHub/commit/b4ac4c5))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.0.0
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v1.11.1...v2.0.0)
