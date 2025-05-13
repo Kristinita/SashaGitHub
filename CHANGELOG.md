@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.3.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.2.0...v2.3.0)
+
 ## v2.2.0
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.1.0...v2.2.0)
