@@ -39,7 +39,7 @@ module.exports = (grunt) ->
 				releaseItReleaseType: grunt.option("ReleaseType")
 
 			services:
-				kiraRemoteHosting: "gitlab"
+				kiraRemoteHosting: "github"
 
 			tokens:
 				kiraTokenForGhPages: kiraDotenvxObject.get "TOKEN_FOR_GH_PAGES"

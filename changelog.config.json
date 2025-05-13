@@ -1,7 +1,13 @@
 {
 	"types": {
 		"deploy": {
-			"title": "🛡 Deployment"
+			"title": "📦 Deployment"
+		},
+		"revert": {
+			"title": "↩ Rolling back changes"
+		},
+		"sec": {
+			"title": "🛡 Security"
 		}
 	}
 }
