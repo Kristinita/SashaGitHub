@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.4.2
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.4.1...v2.4.2)
+
+### 📦 Deployment
+
+- **changelogen:** Try disabling Changelogen templates ([e039037](https://github.com/Kristinita/SashaGitHub/commit/e039037))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.4.1
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.4.0...v2.4.1)
