@@ -1,0 +1,2 @@
+release:
+- shell:release-it

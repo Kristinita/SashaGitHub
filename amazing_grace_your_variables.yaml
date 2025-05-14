@@ -1,0 +1,141 @@
+#########################
+# Your custom variables #
+#########################
+# [INFO] Variables for usage in Grunt and Pelican both:
+# https://stackoverflow.com/a/49901700/5951529
+#
+# [REQUIRED] UPPERCASE for default Pelican variables.
+
+
+##############
+# CHANGE IT! #
+##############
+# [INFO] Custom personal settings, change it
+ARTICLE_PATHS:
+- Books-Reviews
+- Gingerinas
+- Giologica
+- IT-articles
+- Kristinograd
+- Life-hacks
+- Neliateka
+- Neliateka-Candidates
+- Neliateka-Documentation
+- Neliateka-Short-Materials
+- Neliateka-Wishlist
+- Nelias-Rooms
+- Sasha-Black
+- Smert-svobode
+- Sublime-Text
+
+AUTHOR: Саша Черных
+
+# [OPTION] Continuous Integration service from which you deploy your site
+CI_FOR_DEPLOY: Travis CI
+
+# [OPTION] Email used in Git commits.
+#
+# [GIT][NOTE] If you begin to use Amazing Grace, you can use email which you specified when you registered
+# on a hosting service (GitLab, GitHub or its alternatives) for your site.
+# But Git can publicly print user’s emails, therefore, it’s better to create “commit email”.
+# “Commit e-mails” looks like “806166-Kristinita@users.noreply.gitlab.com” on GitLab and
+# “Kristinita@users.noreply.github.com” on GitHub.
+#
+# [GIT][GITLAB][GITHUB] Instructions to creating commit emails on GitLab and GitHub:
+# https://docs.gitlab.com/user/profile/#use-an-automatically-generated-private-commit-email
+# https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address
+#
+# ---
+#
+# [MANUAL][GIT][GITHUB] Manual how to set the commit email on GitHub.
+# Use the similar steps for setting the commit email on GitLab.
+#
+# 1. https://github.com/settings/emails → “Keep my email addresses private”:
+# https://stackoverflow.com/a/71542189/5951529
+#
+# 2. https://github.com/settings/emails → “Primary email address” → get your commit email:
+# https://stackoverflow.com/posts/comments/121169456
+#
+# 3. Set your GitHub commit e-mail for both, global and local settings:
+# https://stackoverflow.com/a/51097104/5951529
+#
+# git config --global user.email "{username}@users.noreply.github.com"
+# git config user.email "{username}@users.noreply.github.com"
+#
+# [NOTE] Don’t use the syntax "{ID}+{username}@users.noreply.github.com" for GitHub commit emails
+# (and use the syntax "{ID}+{username}@users.noreply.gitlab.com" for GitLab commit emails).
+# Commits in this case are displayed as “Unverified”.
+# GitHub marks GPG-signed commits using e-mails with {ID} as “Unverified”:
+# https://github.com/orgs/community/discussions/41199
+# https://i.imgur.com/6svALVn.png
+#
+# 4. Check your Git configuration — run the command “git config --list --show-origin --show-scope”:
+# https://stackoverflow.com/a/2115116/5951529
+#
+# 5. Create the new GPG key for your GitHub commit e-mail without the number ID:
+# https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key
+# https://github.com/orgs/community/discussions/41199#discussioncomment-8133113
+#
+# 6. Add this new GPG key to your GitHub account:
+# https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account
+#
+# After all these steps GitHub should mark as “Verified” all your commits pushed to GitHub
+COMMIT_EMAIL: Kristinita@users.noreply.github.com
+
+# [INFO] Russian by default, because most of my articles in Russian, not English
+DEFAULT_LANG: ru
+
+
+# [INFO] “If you have already explicitly defined SITEURL (see above)
+# and want to use the same domain for your feeds, you can just set:”
+# https://docs.getpelican.com/en/latest/settings.html#feed-settings
+#
+# [INFO] “FEED_DOMAIN” always have absolute, not relative “SITEURL” value
+# for development and production settings
+#
+# [NOTE] I use “SITEURL” instead of “FEED_DOMAIN” for my feeds.
+# “FEED_DOMAIN” is always absolute path, which may not exist.
+# Linkcheckers as linkchecker will show and error.
+# I use relative paths for development and convert them to absolute for production
+# use regexes from my “string-replace.coffee”.
+FEED_DOMAIN: &siteurl https://kristinita.netlify.app
+
+# [INFO] typo-reporter
+FORM_ID_TYPO_REPORTER: 1FAIpQLSfu5tnuHYKNPjH0n1fR9EmWDHwlFESzJj7JQFu_O5IS8G5R2A
+
+
+# MailerLite:
+# [FIXME] MailerLite bugs for RSS and CoffeeScript:
+# https://github.com/Kristinita/SashaMiscellaneous/issues/18
+# https://github.com/Kristinita/SashaMiscellaneous/issues/19
+# MAILERLITE_ACCOUNT_ID: 1389796
+# MAILERLITE_ACCOUNT_KEY: z8r4g9c0m9
+
+# [NOTE] Don’t set “PAGE_PATHS = ['']”! Look at:
+# https://github.com/getpelican/pelican/issues/2123
+PAGE_PATHS:
+- 404.md
+- Pages
+- Sasha-Black.md
+
+REMOTE_REPOSITORY_FOR_SITE: Kristinita.github.io
+REMOTE_REPOSITORY_FOR_SOURCES: KristinitaPelican
+REMOTE_REPOSITORY_HOSTING: github
+REMOTE_REPOSITORY_USERNAME: Kristinita
+
+SITENAME: Amazing Grace
+
+# [INFO] Site URL. Absolute path for publishing
+SITEURL: *siteurl
+
+# [REQUIRED] “If no timezone is defined, UTC is assumed.
+# This means that the generated Atom and RSS feeds will contain
+# incorrect date information if your locale is not UTC.”:
+# https://docs.getpelican.com/en/latest/settings.html#TIMEZONE
+#
+# [INFO] Timezones list:
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+#
+# [INFO] Use “TZ database name” for value of this option:
+# https://github.com/search?q=TIMEZONE+filename%3Apelicanconf.py
+TIMEZONE: Europe/Moscow
