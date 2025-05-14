@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.4.1
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.4.0...v2.4.1)
+
+### 📦 Build
+
+- **grunt:** Try the real-world Grunt example ([97c3d90](https://github.com/Kristinita/SashaGitHub/commit/97c3d90))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.4.0
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.3.0...v2.4.0)
