@@ -1,5 +1,21 @@
 # Changelog
 
+## v2.6.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.5.0...v2.6.0)
+
+### 📦 Build
+
+- **grunt-shell:** Try disable the option preferLocal ([f676b8e](https://github.com/Kristinita/SashaGitHub/commit/f676b8e))
+
+### 📢 Deployment
+
+- **release-it:** Try --increment command-line argument ([e85a709](https://github.com/Kristinita/SashaGitHub/commit/e85a709))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.5.0
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.4.2...v2.5.0)
