@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.5.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.4.2...v2.5.0)
+
+### 📢 Deployment
+
+- **changelogen:** Try changing deployment emoji ([89b6130](https://github.com/Kristinita/SashaGitHub/commit/89b6130))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.4.2
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.4.1...v2.4.2)
