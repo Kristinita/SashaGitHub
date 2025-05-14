@@ -9,4 +9,4 @@ module.exports =
 			execOptions:
 				env:
 					TOKEN_FOR_RELEASE_IT: "<%= templates.dotenvx.encryptedTokenForReleaseIt %>"
-			preferLocal: false
+			# preferLocal: false
