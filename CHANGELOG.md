@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.6.1
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.0...v2.6.1)
+
+### 📢 Deployment
+
+- **changelogen:** Try ESM configuration instead of JSON ([7f71750](https://github.com/Kristinita/SashaGitHub/commit/7f71750))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.6.0
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.5.0...v2.6.0)
