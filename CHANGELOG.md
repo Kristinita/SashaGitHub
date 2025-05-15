@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.6.2
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.1...v2.6.2)
+
+### ✅ Tests
+
+- **changelogen:** Try default type not defined in the file changelog.config.mjs ([ff383e7](https://github.com/Kristinita/SashaGitHub/commit/ff383e7))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.6.1
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.0...v2.6.1)
