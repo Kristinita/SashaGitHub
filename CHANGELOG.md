@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.6.5
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.4...v2.6.5)
+
+### 📢 Deployment
+
+- **release-it:** Try non-valid key in the file .release-it.yaml ([1187554](https://github.com/Kristinita/SashaGitHub/commit/1187554))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.6.4
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.3...v2.6.4)
