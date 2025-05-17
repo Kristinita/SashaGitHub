@@ -5,6 +5,7 @@ git:
   # commit: false
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
+  requireBranch: main
   requireUpstream: false
   tagName: v${version}
 

@@ -1,3 +1,9 @@
+#### 2.9.0 (2025-05-17)
+
+##### Other Changes
+
+* **release-it:**  try the option --dry-run (76e6ca80)
+
 # Changelog
 
 ## v2.6.5
