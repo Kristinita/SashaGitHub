@@ -26,6 +26,7 @@ npm:
 plugins:
   release-it-changelogen:
     disableVersion: true
+    output: messages/{{newVersion}}.txt
     # templates:
     #   commitMessage: "deploy(release-it): release {{newVersion}}"
     #   tagMessage: v{{newVersion}}
