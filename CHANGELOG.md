@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.6.4
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.3...v2.6.4)
+
+### 📢 Deployment
+
+- **release-it:** Try adding schema to the file .release-it.yaml ([7db8e07](https://github.com/Kristinita/SashaGitHub/commit/7db8e07))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.6.3
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.2...v2.6.3)
