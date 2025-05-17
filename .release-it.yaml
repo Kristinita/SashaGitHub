@@ -18,6 +18,8 @@ git:
 # git commit --message="deploy(release-it): release ${version}" --signoff &&
 # git push
 
+kira: goddess
+
 npm:
   publish: false
 
