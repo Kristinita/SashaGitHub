@@ -1,0 +1,15 @@
+# Changelog
+
+
+## v2.7.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.5...v2.7.0)
+
+### 📢 Deployment
+
+- **changelogen:** Try output option for Changelogen ([84c38c1](https://github.com/Kristinita/SashaGitHub/commit/84c38c1))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
