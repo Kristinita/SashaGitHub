@@ -5,8 +5,8 @@ git:
   # commit: false
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
-  requireBranch: main
-  requireUpstream: false
+  # requireBranch: main
+  requireUpstream: true
   tagName: v${version}
 
 # hooks:
