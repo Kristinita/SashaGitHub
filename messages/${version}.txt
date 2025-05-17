@@ -1,0 +1,15 @@
+# Changelog
+
+
+## v2.8.0
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.7.0...v2.8.0)
+
+### 📢 Deployment
+
+- **changelogen:** Try ${version} instead of {{version}} ([bf49992](https://github.com/Kristinita/SashaGitHub/commit/bf49992))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
