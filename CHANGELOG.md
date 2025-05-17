@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.9.2
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.9.1...v2.9.2)
+
+### 📢 Deployment
+
+- **release-it:** Try run release-it with the option requireUpstream after git push ([df9a428](https://github.com/Kristinita/SashaGitHub/commit/df9a428))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.9.1
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.9.0...v2.9.1)
