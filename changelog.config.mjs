@@ -2,11 +2,11 @@
 	@Author: Kristinita
 	@Date: 2025-05-15 08:22:30
 	@Last Modified by: SashaChernykh
-	@Last Modified time: 2025-05-17 12:02:18
+	@Last Modified time: 2025-05-17 12:07:21
 */
 export default {
 
-	"output": "messages/{{newVersion}}.txt",
+	// "output": "messages/{{newVersion}}.txt",
 
 	/* [OPTION] Allowed types in commits
 
