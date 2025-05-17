@@ -1,10 +1,12 @@
 /*
 	@Author: Kristinita
 	@Date: 2025-05-15 08:22:30
-	@Last Modified by: Kristinita
-	@Last Modified time: 2025-05-15 13:00:22
+	@Last Modified by: SashaChernykh
+	@Last Modified time: 2025-05-17 12:02:18
 */
 export default {
+
+	"output": "messages/{{newVersion}}.txt",
 
 	/* [OPTION] Allowed types in commits
 
