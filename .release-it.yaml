@@ -1,3 +1,5 @@
+$schema: https://cdn.jsdelivr.net/gh/release-it/release-it/schema/release-it.json
+
 git:
   addUntrackedFiles: true
   # commit: false
