@@ -6,6 +6,21 @@
 
 # Changelog
 
+## v2.9.1
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.9.0...v2.9.1)
+
+### 📢 Deployment
+
+- **release-it:** Try the option --dry-run ([76e6ca8](https://github.com/Kristinita/SashaGitHub/commit/76e6ca8))
+- **release-it:** Add the option requireBranch ([0ef7a89](https://github.com/Kristinita/SashaGitHub/commit/0ef7a89))
+- **release-it:** Try enabling the option requireUpstream ([80ea786](https://github.com/Kristinita/SashaGitHub/commit/80ea786))
+- **release-it:** Try disabling the option --dry-run for checking the option requireUpstream ([8671048](https://github.com/Kristinita/SashaGitHub/commit/8671048))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.6.5
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.6.4...v2.6.5)
