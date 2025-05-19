@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.10.2
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.1...v2.10.2)
+
+### 📢 Deployment
+
+- **release-it:** Try echo and tee commands ([428642f](https://github.com/Kristinita/SashaGitHub/commit/428642f))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.1
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.0...v2.10.1)
