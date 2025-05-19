@@ -6,6 +6,19 @@
 
 # Changelog
 
+## v2.10.1
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.0...v2.10.1)
+
+### 📢 Deployment
+
+- **release-it:** Try ${changelog} with --dry-run ([e6a3d3d](https://github.com/Kristinita/SashaGitHub/commit/e6a3d3d))
+- **release-it:** Try ${changelog} again without --dry-run ([0843502](https://github.com/Kristinita/SashaGitHub/commit/0843502))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.0
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.9.1...v2.10.0)
