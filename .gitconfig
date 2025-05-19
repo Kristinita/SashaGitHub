@@ -1,5 +1,76 @@
+#############
+# Gitconfig #
+#############
+# [OVERVIEW] Options for Git repositories:
+# https://git-scm.com/docs/git-config
+#
+# [NOTE] Git doesn’t allow overwriting settings via the configuration file in the repository.
+# Users need creating the file “.gitconfig” in the root folder of the local Git repository
+# and running Git command below for applying settings:
+#
+# ```shell
+# git config --local include.path ../.gitconfig
+# ```
+#
+# https://stackoverflow.com/a/18330114/5951529
+#
+#
+# [OPTIONS][CONFIGURATION] The list of available variables in Git configuration files:
+# https://git-scm.com/docs/git-config#_variables
+#
+# [CONFIGURATION]
+# https://git-scm.com/docs/git-config#_configuration_file
+#
+# [CONFIGURATION] Types of Git configuration files:
+# https://git-scm.com/docs/git-config#FILES
+#
+#
+# [CLI]
+# https://git-scm.com/docs/git-config#_commands
+# https://git-scm.com/docs/git-config#OPTIONS
+#
+# [ENV] Environment variables changing Git configurations:
+# https://git-scm.com/docs/git-config#ENVIRONMENT
+
+
 [core]
+# [OPTION] Return non-ASCII filenames when users run commands like “git diff”, “git ls-files” and “git state”:
+# https://ru.stackoverflow.com/a/770979/199934
+#
+# [EXAMPLE] “git ls-files” output:
+#
+# If “quotepath = false”:
+# КираБожественна.txt
+#
+# If “quotepath = true”:
+# "\320\232\320\270\321\200\320\260\320\221\320\276\320\266\320\265\321\201\321\202\320\262\320\265\320\275\320\275\320\260.txt"
 quotepath = false
 
-[safe]
-directory = "*"
+
+# [OPTION] Set “main” as default branch name for Git repository
+# when users run the command “git init”:
+# https://superuser.com/a/1572156/572069
+#
+# [FIXME] Migrate from the “master” branch to “main”
+# [init]
+# defaultBranch = main
+
+
+[push]
+# [OPTION] Allows running the command “git push” after creating new Git branch.
+# This option automatically creates the remote branch with the same name as local branch if remote branch isn’t exist,
+# and set upstream between local and remote branches — that’s, associates them.
+#
+# Without “push.autoSetupRemote = true”, when a user creates new branch
+# via the command “git switch --create KiraExampleBranch”,
+# then make changes in the repository → and then run commands
+# “git add --all” → “git commit --message="Example message" --signoff” → “git push”,
+# he gets the error “fatal: The current branch KiraExampleBranch has no upstream branch.”:
+# https://stackoverflow.com/a/23402125/5951529
+# https://stackoverflow.com/a/72401899/5951529
+autoSetupRemote = true
+
+
+# [OPTION][NOTE] “safe.directory = *” in repository settings has no effect.
+# It should be a global setting:
+# https://stackoverflow.com/a/73521232/5951529
