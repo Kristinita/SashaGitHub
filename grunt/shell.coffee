@@ -1,7 +1,7 @@
 module.exports =
 
 	"release-it":
-		command: "npx release-it --ci
+		command: "npx release-it --ci --dry-run
 					--<%= templates.amazingGraceConfig.REMOTE_REPOSITORY_HOSTING %>.release
 					--<%= templates.amazingGraceConfig.REMOTE_REPOSITORY_HOSTING %>.tokenRef TOKEN_FOR_RELEASE_IT
 					--increment=<%= templates.git.releaseItReleaseType %>"
