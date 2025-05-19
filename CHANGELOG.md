@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.9.2
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.9.1...v2.9.2)
+
+### 📢 Deployment
+
+- **release-it:** Try the variable ${changelog} ([5afc1d5](https://github.com/Kristinita/SashaGitHub/commit/5afc1d5))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.9.1
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.9.0...v2.9.1)
