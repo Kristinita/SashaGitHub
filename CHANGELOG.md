@@ -6,6 +6,19 @@
 
 # Changelog
 
+## v2.10.4
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.2...v2.10.4)
+
+### 📢 Deployment
+
+- **release-it:** Try cat instead of echo ([ee962e7](https://github.com/Kristinita/SashaGitHub/commit/ee962e7))
+- **release-it:** Try cat from Git for Windows ([49d3c7c](https://github.com/Kristinita/SashaGitHub/commit/49d3c7c))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.3
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.2...v2.10.3)
