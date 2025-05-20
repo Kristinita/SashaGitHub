@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.10.7
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.6...v2.10.7)
+
+### 📢 Deployment
+
+- **release-it:** Try DeepSeek recommendation ([e562a57](https://github.com/Kristinita/SashaGitHub/commit/e562a57))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.6
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.2...v2.10.6)
