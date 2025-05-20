@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.10.9
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.8...v2.10.9)
+
+### 📢 Deployment
+
+- **release-it:** Try moving printf command to the separate line ([56b86da](https://github.com/Kristinita/SashaGitHub/commit/56b86da))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.8
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.7...v2.10.8)
