@@ -11,7 +11,7 @@ git:
 
 hooks:
   after:bump: |
-    python -c "open('messages/${version}.txt', 'w', encoding='utf-8').write('''${changelog}''')"
+    echo "${changelog}" | python -c "import sys, base64; open('messages/${version}.txt', 'w', encoding='utf-8').write(base64.b64decode(sys.stdin.read()).decode('utf-8'))"
 
 # npx changelogen |
 # tee messages/${version}.txt &&
