@@ -14,6 +14,18 @@
 
 # Changelog
 
+## v2.10.26
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.25...v2.10.26)
+
+### 📢 Deployment
+
+- **release-it:** Try DeepSeek’s solution with process.argv.slice ([17d50d2](https://github.com/Kristinita/SashaGitHub/commit/17d50d2))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.25
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.23...v2.10.25)
