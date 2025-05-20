@@ -10,7 +10,8 @@ git:
   tagName: v${version}
 
 hooks:
-  after:bump: printf "%s\n" "${changelog}" | tee "messages/${version}.txt"
+  after:bump: >
+    printf "%s\n" "${changelog}" | tee "messages/${version}.txt"
 
 # npx changelogen |
 # tee messages/${version}.txt &&
