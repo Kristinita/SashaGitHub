@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.10.20
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.19...v2.10.20)
+
+### 📢 Deployment
+
+- **release-it:** Try long Qwen command ([a368b07](https://github.com/Kristinita/SashaGitHub/commit/a368b07))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.19
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.18...v2.10.19)
