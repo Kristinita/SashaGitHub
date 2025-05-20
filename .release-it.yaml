@@ -10,7 +10,7 @@ git:
   tagName: v${version}
 
 hooks:
-  after:bump: node -e "require('fs').writeFileSync('messages/' + process.env.version + '.txt', process.env.changelog);"
+  after:bump: node -e "require('fs').writeFileSync('messages/' + ${version} + '.txt', ${changelog});"
 
 
 # npx changelogen |

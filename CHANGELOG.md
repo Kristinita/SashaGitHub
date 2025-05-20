@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.10.14
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.13...v2.10.14)
+
+### 📢 Deployment
+
+- **release-it:** Try Node.js command instead of printf ([3dbf709](https://github.com/Kristinita/SashaGitHub/commit/3dbf709))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.13
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.12...v2.10.13)
