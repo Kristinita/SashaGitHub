@@ -14,6 +14,18 @@
 
 # Changelog
 
+## v2.10.22
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.21...v2.10.22)
+
+### 📢 Deployment
+
+- **release-it:** Try echo + Node command ([f48ad0e](https://github.com/Kristinita/SashaGitHub/commit/f48ad0e))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.21
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.20...v2.10.21)
