@@ -14,6 +14,19 @@
 
 # Changelog
 
+## v2.10.25
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.23...v2.10.25)
+
+### 📢 Deployment
+
+- **release-it:** Try Python command after bump ([ad60e33](https://github.com/Kristinita/SashaGitHub/commit/ad60e33))
+- **release-it:** Try Python command with base64 ([e77d16c](https://github.com/Kristinita/SashaGitHub/commit/e77d16c))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.24
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.23...v2.10.24)
