@@ -6,6 +6,21 @@
 
 # Changelog
 
+## v2.10.6
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.2...v2.10.6)
+
+### 📢 Deployment
+
+- **release-it:** Try cat instead of echo ([ee962e7](https://github.com/Kristinita/SashaGitHub/commit/ee962e7))
+- **release-it:** Try cat from Git for Windows ([49d3c7c](https://github.com/Kristinita/SashaGitHub/commit/49d3c7c))
+- **release-it:** Try quoted ${changelog} variable ([fdc4bbe](https://github.com/Kristinita/SashaGitHub/commit/fdc4bbe))
+- **release-it:** Try printf command ([b581019](https://github.com/Kristinita/SashaGitHub/commit/b581019))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.5
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.2...v2.10.5)
