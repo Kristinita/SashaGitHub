@@ -13,6 +13,7 @@ hooks:
   after:bump: >
     printf "%s" "${changelog}" > "messages/${version}.txt"
 
+
 # npx changelogen |
 # tee messages/${version}.txt &&
 # json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab
