@@ -1,3 +1,9 @@
+#### 2.10.21 (2025-05-20)
+
+##### Other Changes
+
+* **release-it:**  try environment variable CHANGELOG (63d1d947)
+
 #### 2.9.0 (2025-05-17)
 
 ##### Other Changes
@@ -5,6 +11,18 @@
 * **release-it:**  try the option --dry-run (76e6ca80)
 
 # Changelog
+
+## v2.10.21
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.20...v2.10.21)
+
+### 📢 Deployment
+
+- **release-it:** Try environment variable CHANGELOG ([63d1d94](https://github.com/Kristinita/SashaGitHub/commit/63d1d94))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
 
 ## v2.10.20
 
