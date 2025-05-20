@@ -14,6 +14,18 @@
 
 # Changelog
 
+## v2.10.23
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.22...v2.10.23)
+
+### 📢 Deployment
+
+- **release-it:** Try hard DeepSeek solution ([b5ec537](https://github.com/Kristinita/SashaGitHub/commit/b5ec537))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.22
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.21...v2.10.22)
