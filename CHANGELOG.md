@@ -6,6 +6,10 @@
 
 # Changelog
 
+## v2.10.10
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.9...v2.10.10)
+
 ## v2.10.9
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.8...v2.10.9)
