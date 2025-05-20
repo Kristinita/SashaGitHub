@@ -6,6 +6,22 @@
 
 # Changelog
 
+## v2.10.18
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.13...v2.10.18)
+
+### 📢 Deployment
+
+- **release-it:** Try Node.js command instead of printf ([3dbf709](https://github.com/Kristinita/SashaGitHub/commit/3dbf709))
+- **release-it:** Try replacing process.env variables ([b9bf01a](https://github.com/Kristinita/SashaGitHub/commit/b9bf01a))
+- **release-it:** Try Qwen Node.js proposal ([626159f](https://github.com/Kristinita/SashaGitHub/commit/626159f))
+- **release-it:** Try modified Qwen proposal ([c9d836d](https://github.com/Kristinita/SashaGitHub/commit/c9d836d))
+- **release-it:** Try process.argv[1] ([7d998bd](https://github.com/Kristinita/SashaGitHub/commit/7d998bd))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.17
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.13...v2.10.17)
