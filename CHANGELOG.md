@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.10.19
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.18...v2.10.19)
+
+### 📢 Deployment
+
+- **release-it:** Try process.argv[1] in Node.js command ([389cf64](https://github.com/Kristinita/SashaGitHub/commit/389cf64))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.18
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.13...v2.10.18)
