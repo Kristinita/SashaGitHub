@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.10.11
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.10...v2.10.11)
+
+### 📢 Deployment
+
+- **release-it:** Try disabling tee command ([9da517e](https://github.com/Kristinita/SashaGitHub/commit/9da517e))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.10
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.9...v2.10.10)
