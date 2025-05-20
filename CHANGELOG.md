@@ -1,5 +1,7 @@
 #### 2.10.21 (2025-05-20)
 
+#### 2.10.21 (2025-05-20)
+
 ##### Other Changes
 
 * **release-it:**  try environment variable CHANGELOG (63d1d947)
