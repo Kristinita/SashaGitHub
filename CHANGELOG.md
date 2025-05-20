@@ -6,6 +6,18 @@
 
 # Changelog
 
+## v2.10.13
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.12...v2.10.13)
+
+### 📢 Deployment
+
+- **release-it:** Try multiline changelog for printf ([339708c](https://github.com/Kristinita/SashaGitHub/commit/339708c))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.12
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.11...v2.10.12)
