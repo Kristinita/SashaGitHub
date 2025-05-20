@@ -13,7 +13,6 @@ hooks:
   after:bump: |
     node -e "require('fs').writeFileSync('messages/${version}.txt', process.argv[1])" -- "${changelog}"
 
-
 # npx changelogen |
 # tee messages/${version}.txt &&
 # json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab
