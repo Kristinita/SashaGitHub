@@ -14,6 +14,18 @@
 
 # Changelog
 
+## v2.10.29
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.28...v2.10.29)
+
+### 📢 Deployment
+
+- **release-it:** Try process.argv[2] ([cb77917](https://github.com/Kristinita/SashaGitHub/commit/cb77917))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.28
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.27...v2.10.28)
