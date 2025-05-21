@@ -2,6 +2,7 @@ $schema: https://cdn.jsdelivr.net/gh/release-it/release-it/schema/release-it.jso
 
 git:
   addUntrackedFiles: true
+  changelog: npx changelogen --bump --no-output | tee messages/${version}.txt
   # commit: false
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
@@ -9,6 +10,9 @@ git:
   requireUpstream: true
   tagName: v${version}
 
+hooks:
+  after:bump: |
+    npx shx echo "${changelog}" > messages/${version}.txt
 
 # npx changelogen |
 # tee messages/${version}.txt &&
@@ -17,8 +21,6 @@ git:
 # git add --all &&
 # git commit --message="deploy(release-it): release ${version}" --signoff &&
 # git push
-
-kira: goddess
 
 npm:
   publish: false
