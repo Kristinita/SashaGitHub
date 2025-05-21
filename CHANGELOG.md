@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.10.39
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.37...v2.10.39)
+
+### 📢 Deployment
+
+- **release-it:** Try Shx + Cat ([8ce4d3b](https://github.com/Kristinita/SashaGitHub/commit/8ce4d3b))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.37
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.35...v2.10.37)
