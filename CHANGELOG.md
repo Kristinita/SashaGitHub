@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.10.37
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.35...v2.10.37)
+
+### 📢 Deployment
+
+- **release-it:** Try shx --verbose ([48a4176](https://github.com/Kristinita/SashaGitHub/commit/48a4176))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.35
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.33...v2.10.35)
