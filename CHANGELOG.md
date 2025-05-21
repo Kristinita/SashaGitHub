@@ -14,6 +14,19 @@
 
 # Changelog
 
+## v2.10.30
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.28...v2.10.30)
+
+### 📢 Deployment
+
+- **release-it:** Try process.argv[2] ([cb77917](https://github.com/Kristinita/SashaGitHub/commit/cb77917))
+- **release-it:** Try another DeepSeek proposal with process.argv.slice ([1cf0750](https://github.com/Kristinita/SashaGitHub/commit/1cf0750))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.29
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.28...v2.10.29)
