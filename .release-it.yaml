@@ -11,7 +11,7 @@ git:
 
 hooks:
   after:bump: |
-    node -e "const args = process.argv.slice(process.argv.indexOf('--') + 1); require('fs').writeFileSync('messages/${version}.txt', args.join('\n'))" -- "${changelog}"
+    node -e "const changelog = process.argv.slice(2).join('\n'); require('fs').writeFileSync('messages/${version}.txt', changelog);" "${changelog}"
 
 
 # npx changelogen |
