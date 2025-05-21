@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.10.32
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.31...v2.10.32)
+
+### 📢 Deployment
+
+- **release-it:** Try removing non-valid version files ([ebea4b4](https://github.com/Kristinita/SashaGitHub/commit/ebea4b4))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.31
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.30...v2.10.31)
