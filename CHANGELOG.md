@@ -14,6 +14,18 @@
 
 # Changelog
 
+## v2.10.28
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.27...v2.10.28)
+
+### 📢 Deployment
+
+- **release-it:** Try Llama-4 proposal' ([e7d1a09](https://github.com/Kristinita/SashaGitHub/commit/e7d1a09))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.26
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.25...v2.10.26)
