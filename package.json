@@ -1,6 +1,6 @@
 {
 	"name": "sashagithub",
-	"version": "2.10.37",
+	"version": "2.10.38",
 	"devDependencies": {
 		"@commitlint/cli": "^19.8.0",
 		"@commitlint/config-conventional": "^19.8.0",
