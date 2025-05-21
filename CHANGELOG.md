@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.10.41
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.39...v2.10.41)
+
+### 📢 Deployment
+
+- **release-it:** Try disabling git.changelog option ([d06a682](https://github.com/Kristinita/SashaGitHub/commit/d06a682))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.39
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.37...v2.10.39)
