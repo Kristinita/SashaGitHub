@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.10.44
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.43...v2.10.44)
+
+### 📢 Deployment
+
+- **release-it:** Try heredoc syntax with Shx ([3277bb7](https://github.com/Kristinita/SashaGitHub/commit/3277bb7))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.43
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.42...v2.10.43)

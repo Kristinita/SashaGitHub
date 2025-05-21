@@ -9,11 +9,8 @@ git:
   requireUpstream: true
   tagName: v${version}
 
-hooks:
-  after:bump: |
-    npx shx tee messages/${version}.txt > /dev/null <<EOF
-    ${changelog}
-    EOF
+# hooks:
+#   after:bump: echo "${changelog}" > messages/${version}.txt
 
 # npx changelogen |
 # tee messages/${version}.txt &&
