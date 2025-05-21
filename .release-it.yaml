@@ -2,7 +2,6 @@ $schema: https://cdn.jsdelivr.net/gh/release-it/release-it/schema/release-it.jso
 
 git:
   addUntrackedFiles: true
-  # changelog: npx changelogen --bump --no-output | tee messages/${version}.txt
   # commit: false
   commitArgs: --signoff
   commitMessage: "deploy(release-it): release v${version}"
