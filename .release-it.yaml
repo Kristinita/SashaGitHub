@@ -9,6 +9,16 @@ git:
   requireUpstream: true
   tagName: v${version}
 
+hooks:
+  after:bump: |
+    node -e "
+    const fs = require('fs');
+    const path = 'messages/${version}.txt';
+    const changelog = process.argv.slice(1).join('\n');
+    fs.writeFileSync(path, changelog, { flag: 'w' });
+    " -- "${changelog}"
+
+
 # npx changelogen |
 # tee messages/${version}.txt &&
 # json -e "this['${version}']='messages/${version}.txt'" -f messages.json --in-place --output json-tab
@@ -25,7 +35,7 @@ npm:
 plugins:
   release-it-changelogen:
     disableVersion: true
-    output: temp
+    # output: messages/{{newVersion}}.txt
     # templates:
     #   commitMessage: "deploy(release-it): release {{newVersion}}"
     #   tagMessage: v{{newVersion}}
