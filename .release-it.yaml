@@ -11,7 +11,7 @@ git:
 
 hooks:
   after:bump: |
-    npx shx --verbose echo "${changelog}" > messages/${version}.txt
+    echo "${changelog}" | npx shx --verbose cat > messages/${version}.txt
 
 # npx changelogen |
 # tee messages/${version}.txt &&
