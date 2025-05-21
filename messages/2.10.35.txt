@@ -1,0 +1,1 @@
+[36mi[39m Bumping npm package version from [36m2.10.35[39m to [36m2.10.36[39m (patch)
