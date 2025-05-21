@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.10.35
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.33...v2.10.35)
+
+### 📢 Deployment
+
+- **release-it:** Try simple Shx + Echo ([c848fcd](https://github.com/Kristinita/SashaGitHub/commit/c848fcd))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.33
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.32...v2.10.33)
