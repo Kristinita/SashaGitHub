@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.10.42
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.41...v2.10.42)
+
+### 📢 Deployment
+
+- **release-it:** Try removing git.changelog command ([b647b3c](https://github.com/Kristinita/SashaGitHub/commit/b647b3c))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.41
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.39...v2.10.41)
