@@ -14,6 +14,18 @@
 
 # Changelog
 
+## v2.10.31
+
+[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.30...v2.10.31)
+
+### 📢 Deployment
+
+- **release-it:** Try process.argv.slice(2) ([62f87c7](https://github.com/Kristinita/SashaGitHub/commit/62f87c7))
+
+### ❤️ Contributors
+
+- Kristinita ([@Kristinita](http://github.com/Kristinita))
+
 ## v2.10.30
 
 [compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.28...v2.10.30)
