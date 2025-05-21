@@ -9,10 +9,6 @@ git:
   requireUpstream: true
   tagName: v${version}
 
-hooks:
-  after:bump: |
-    node -e "const changelog = process.argv.slice(2).join('\n'); require('fs').writeFileSync('messages/${version}.txt', changelog);" "${changelog}"
-
 
 # npx changelogen |
 # tee messages/${version}.txt &&

@@ -1,1 +1,0 @@
-[compare changes](https://github.com/Kristinita/SashaGitHub/compare/v2.10.13...v2.10.18)

@@ -1,17 +1,3 @@
-#### 2.10.21 (2025-05-20)
-
-#### 2.10.21 (2025-05-20)
-
-##### Other Changes
-
-* **release-it:**  try environment variable CHANGELOG (63d1d947)
-
-#### 2.9.0 (2025-05-17)
-
-##### Other Changes
-
-* **release-it:**  try the option --dry-run (76e6ca80)
-
 # Changelog
 
 ## v2.10.31
